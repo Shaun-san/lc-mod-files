@@ -1,11 +1,6 @@
 {
     "files": [
         {
-            "path": ".megaignore",
-            "sha256": "e2f9f26cde8e7eb88ef52f31b286972bae6b7ff9155bf3e488a8bc6acf0c44c3",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/.megaignore"
-        },
-        {
             "path": "core/0Harmony.dll",
             "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/core/0Harmony.dll"
