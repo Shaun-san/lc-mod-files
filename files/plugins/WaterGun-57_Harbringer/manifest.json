@@ -1,0 +1,11 @@
+{
+    "name": "57_Harbringer",
+    "version_number": "2.6.1",
+    "website_url": "https://www.youtube.com/@wolimentoski6018",
+    "description": "[V80] Adds 1 new vanilla moon",
+    "author": "WaterGun",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305",
+        "IAmBatby-LethalLevelLoader-1.6.9"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Tomb",
+    "version_number": "0.3.5",
+    "website_url": "https://github.com/Toliann",
+    "description": "adds new interior a game. by KayNetsua/tolian!",
+    "dependencies": [
+	"IAmBatby-LethalLevelLoader-1.7.5",
+	"BepInEx-BepInExPack-5.4.2100",
+	"JacobG5-JLL-1.9.3"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+  "unlockableSuits": [
+    {
+      "suitID": "Commander_Suit",
+      "suitName": "Commander suit",
+      "suitTexture": "Commander.png"
+    },
+    {
+      "suitID": "Grunt_Suit",
+      "suitName": "Grunt suit",
+      "suitTexture": "Grunt.png"
+    },
+    {
+      "suitID": "Mechanic_Suit",
+      "suitName": "Mechanic suit",
+      "suitTexture": "Mechanic.png"
+    },
+    {
+      "suitID": "Medic_Suit",
+      "suitName": "Medic suit",
+      "suitTexture": "Medic.png"
+    },
+    {
+      "suitID": "Quartermaster_Suit",
+      "suitName": "Quartermaster suit",
+      "suitTexture": "Quartermaster.png"
+    },
+    {
+      "suitID": "Sergeant_Suit",
+      "suitName": "Sergeant suit",
+      "suitTexture": "Sergeant.png"
+    },
+    {
+      "suitID": "Scientist_Suit",
+      "suitName": "Scientist suit",
+      "suitTexture": "Scientist.png"
+    },
+    {
+      "suitID": "Technician_Suit",
+      "suitName": "Technician suit",
+      "suitTexture": "Technician.png"
+    },
+    {
+      "suitID": "Corpsman_Suit",
+      "suitName": "Corpsman suit",
+      "suitTexture": "Corpsman.png"
+    },
+    {
+      "suitID": "Civilian_Suit",
+      "suitName": "Civilian suit",
+      "suitTexture": "Civilian.png"
+    }
+  ]
+}

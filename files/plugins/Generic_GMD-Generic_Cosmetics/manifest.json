@@ -1,0 +1,10 @@
+{
+    "name": "Generic_Cosmetics",
+    "version_number": "1.1.0",
+    "website_url": "",
+    "description": "20 cosmetics to help you really feel like an underpaid disposable worker. Also includes many guns for some reason. And one suit if you have More Suits.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "notnotnotswipez-MoreCompany-1.12.0"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "namespace": "seechela",
+  "name": "Configurable_Quota",
+  "description": "Allows users to configure every aspect of the quota the way they want.",
+  "version_number": "1.6.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "xilophor-LethalNetworkAPI-3.4.2"
+  ],
+  "website_url": "https://github.com/se3ya/LC-ConfigurableQuota",
+  "FullName": "seechela-Configurable_Quota"
+}

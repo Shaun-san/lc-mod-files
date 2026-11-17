@@ -1,0 +1,9 @@
+{
+    "name": "LightBat",
+    "version_number": "1.0.8",
+    "website_url": "",
+    "description": "A Light-Feeding Fauna",
+    "dependencies": [
+"Evaisa-LethalLib-1.2.0"
+    ]
+}

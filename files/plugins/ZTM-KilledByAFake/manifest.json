@@ -1,0 +1,11 @@
+{
+    "name": "KilledByAFake",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/pZacca/KilledByAFake",
+    "description": "The performance report reveals who the Masked was imitating: 'Was killed by a fake Bob.' Coroner + Mirage integration.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305",
+        "EliteMasterEric-Coroner-2.4.1",
+        "qwbarch-Mirage-1.29.1"
+    ]
+}

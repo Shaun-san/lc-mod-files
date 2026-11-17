@@ -1,0 +1,15 @@
+{
+  "namespace": "seechela",
+  "name": "LethalElementsForky",
+  "description": "[v81] A mod that adds five new weather effects! (Fork of LethalElementsTheta)",
+  "version_number": "1.4.2",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Evaisa-FixPluginTypesSerialization-1.1.4",
+    "Hamunii-AutoHookGenPatcher-1.1.1",
+    "mrov-WeatherRegistry-0.8.8",
+    "v0xx-TerraMesh-1.2.0"
+  ],
+  "website_url": "https://github.com/se3ya/LC-LethalElementsForky",
+  "FullName": "seechela-LethalElementsForky"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "UpturnedVariety",
+    "version_number": "2.3.0",
+	"website_url": "https://github.com/ButteryStancakes/UpturnedVariety",
+    "description": "Includes some additional variants for reused The Upturned assets. (1 boombox track, 14 item reskins, 1 record)",
+    "dependencies": [
+		"BepInEx-BepInExPack-5.4.2305"
+	]
+}

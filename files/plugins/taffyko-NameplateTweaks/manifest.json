@@ -1,0 +1,9 @@
+{
+	"name": "NameplateTweaks",
+	"version_number": "1.0.7",
+	"website_url": "https://github.com/taffyko/LCNameplateTweaks",
+	"description": "Client-side options for player username billboards. Voice activity speaking indicators, options for better visibility or to hide nameplates completely, etc.",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}

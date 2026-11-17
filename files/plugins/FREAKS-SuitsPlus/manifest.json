@@ -1,0 +1,10 @@
+{
+    "name": "SuitsPlus",
+    "version_number": "3.0.0",
+    "website_url": "https://github.com/FREAKS-Network/LC-SuitsPlus",
+    "description": "Mod from FREAKS® for Lethal Company, adding 17 colored suits and 10 custom suits for you and your friends to play with!",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "x753-More_Suits-1.4.4"
+    ]
+}

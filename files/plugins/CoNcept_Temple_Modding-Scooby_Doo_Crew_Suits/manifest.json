@@ -1,0 +1,10 @@
+{
+    "name": "Scooby_Doo_Crew_Suits",
+    "version_number": "1.0.4",
+    "website_url": "https://thunderstore.io/c/lethal-company/p/CoNcept_Temple_Modding/",
+    "description": "Adds 5 Scooby Doo Crew suits to Lethal Company, must have 753MoreSuits, Suits created by CoNcept Temple (CoNcept Modding), Final fixed version of all 5 scooby doo gang suits. I hope you enjoy! 🙌😊",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "x753-More_Suits-1.4.1"
+    ]
+}

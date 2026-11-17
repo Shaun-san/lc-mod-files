@@ -1,0 +1,11 @@
+{
+    "name": "E_Gypt_Moon",
+    "version_number": "2.0.27",
+    "website_url": "https://twitter.com/KayNetsua",
+    "description": "Adds the intermediate-level moon 10-EGypt to the game.",
+    "dependencies": [
+	"BepInEx-BepInExPack-5.4.2100",
+    "IAmBatby-LethalLevelLoader-1.7.5",
+    "JacobG5-JLL-1.9.3"
+    ]
+}

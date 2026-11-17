@@ -1,0 +1,12 @@
+{
+	"name": "33Granductor",
+	"version_number": "1.5.2",
+	"website_url": "",
+	"description": "A calamitous stormy moon, blanketed by eternal thunder and industrial prowess.",
+	"dependencies": [
+		"IAmBatby-LethalLevelLoader-1.7.12",
+		"JacobG5-JLL-1.10.1",
+		"pacoito-itolib-0.9.3",
+		"rectorado-KenjiLib-0.7.1"
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Kenjis_Weathers",
+  "version_number": "1.1.0",
+  "website_url": "https://discord.com/channels/1168655651455639582/1392978985872261220",
+  "description": "A collection of simple weathers I made.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "mrov-WeatherRegistry-0.7.5",
+    "IAmBatby-LethalLevelLoader-1.6.0",
+    "JacobG5-JLL-1.9.9",
+	"Generic_GMD-ManuLib-1.1.0",
+	"rectorado-KenjiLib-0.4.0"
+  ]
+}
