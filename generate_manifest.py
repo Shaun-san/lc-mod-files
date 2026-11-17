@@ -22,13 +22,15 @@ def generate_manifest(folder, base_url):
     if not root.is_dir():
         raise FileNotFoundError(f"A mappa nem található: {root}")
 
+    print(f"\nForrásmappa: {root}")
+    print(f"GitHub alap URL: {base_url}")
+
     files = []
 
     for file_path in sorted(root.rglob("*")):
         if not file_path.is_file():
             continue
 
-        # Mega segédfájlok kihagyása
         if file_path.name.lower() == ".megaignore":
             print(f"[KIHAGYVA] {file_path.name}")
             continue
@@ -36,9 +38,7 @@ def generate_manifest(folder, base_url):
         relative_path = file_path.relative_to(root).as_posix()
         file_hash = calculate_sha256(file_path)
 
-        download_url = (
-            base_url.rstrip("/") + "/" + relative_path
-        )
+        download_url = base_url.rstrip("/") + "/" + relative_path
 
         files.append({
             "path": relative_path,
@@ -46,11 +46,10 @@ def generate_manifest(folder, base_url):
             "url": download_url
         })
 
-        print(f"[HASH OK] {relative_path}")
+        print(f"\n[HASH OK] {relative_path}")
+        print(f"SHA256: {file_hash}")
 
-    manifest = {
-        "files": files
-    }
+    manifest = {"files": files}
 
     with open(output, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=4, ensure_ascii=False)
