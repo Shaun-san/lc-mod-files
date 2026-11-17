@@ -28,6 +28,11 @@ def generate_manifest(folder, base_url):
         if not file_path.is_file():
             continue
 
+        # Mega segédfájlok kihagyása
+        if file_path.name.lower() == ".megaignore":
+            print(f"[KIHAGYVA] {file_path.name}")
+            continue
+
         relative_path = file_path.relative_to(root).as_posix()
         file_hash = calculate_sha256(file_path)
 
