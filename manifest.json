@@ -6396,6 +6396,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FREAKS-SuitsPlus/README.md"
         },
         {
+            "path": "plugins/FreeBoomBox/FreeBoomboxV81.dll",
+            "sha256": "5e4a54bc7a76328d48ee22788100b269997e939c9f47de2af5e80c92b8281262",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FreeBoomBox/FreeBoomboxV81.dll"
+        },
+        {
             "path": "plugins/fumiko-CullFactory/CHANGELOG.md",
             "sha256": "929d4412fa597615929147d5055c1a339d24345fc766d6c9cbb08d0b156d7b87",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/fumiko-CullFactory/CHANGELOG.md"
@@ -9014,11 +9019,6 @@
             "path": "plugins/ShaosilGaming-GeneralImprovements/README.md",
             "sha256": "383a8d074ed4910a2f3d0e629f6640cbcb22e24debb00f049b65c5e57b841a4a",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ShaosilGaming-GeneralImprovements/README.md"
-        },
-        {
-            "path": "plugins/ShopTweaks/ShopTweaks.dll",
-            "sha256": "344d5b4a78fa8c5aa75f945edb0fc203d978523e65bb438099e492e0a67c8e2b",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ShopTweaks/ShopTweaks.dll"
         },
         {
             "path": "plugins/Sigurd-CSync/CSync/com.sigurd.csync.dll",
