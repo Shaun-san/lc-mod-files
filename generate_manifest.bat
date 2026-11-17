@@ -1,1 +1,1 @@
-python generate_manifest.py "./files" --base-url "https://raw.githubusercontent.com/Shaun-san/LC-Mods/main/files"
+python generate_manifest.py "./files" --base-url "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files"
