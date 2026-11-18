@@ -153,11 +153,3 @@ Starting in v1.2.0, I've included some additional customization options (all dis
 - Can also be configured to only show for converted players, or show for natural Masked as well
 
 </details>
-
-<details>
-<summary><b>No spinning on the radar</b></summary>
-
-- Lets you completely disable Masked spinning on the radar
-- Regardless of this setting, Masked will always stop spinning once they are killed (as explained in the **List of Changes** section)
-
-</details>

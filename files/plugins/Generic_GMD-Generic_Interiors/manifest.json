@@ -1,6 +1,6 @@
 {
     "name": "Generic_Interiors",
-    "version_number": "5.2.1",
+    "version_number": "5.2.0",
     "website_url": "https://github.com/GenericGMD/Generic-Moons",
     "description": "Currently adds 6 interiors. Includes Storehouse, Bunker, Drains, Substation, Tower, and Liminal Facility. Now with separate assetbundles!",
     "dependencies": [

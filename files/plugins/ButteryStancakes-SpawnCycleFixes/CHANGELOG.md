@@ -1,5 +1,3 @@
-# v1.2.3
-- Fixed a condition which allows extra enemies to spawn for overperforming crews (100% of quota -> 80% of quota)
 # v1.2.2
 - Fixed an extremely rare bug which could cause random monsters to spawn outside (ignoring normal spawn rules) once every Old Bird on the map woke up
 # v1.2.1

@@ -41,7 +41,6 @@ Anyone who contributes in any way is greatly appreciated.
     - Sad Amazon
     - Bobilka
     - Pixelated Engie - [twitter](https://twitter.com/PixelatedEngie)
-    - Draglorr - [Ao3](https://archiveofourown.org/users/Draglorr/works), discordID:draglorr
 - Beta Testers
     - Lann
     - Kapt
@@ -262,7 +261,7 @@ You can check the key binds used for More Ship Upgrades to understand how to nav
     
 * __Effective Bandaids - $250__
     * Increases the amount of health regenerated from the vanilla health regeneration mechanic. 
-    
+       
 * __Item Duplicator - $250__
     * Adds chance to duplicate the items dropped from the item drop pod.
 
@@ -270,10 +269,17 @@ You can check the key binds used for More Ship Upgrades to understand how to nav
     * Decreases the growth rate of the maneater child while crying.
 
 * __Smarter Lockpicker - $200__
-    * Increases the efficiency of the lockpicker item, decreasing the amount of time required to open locked doors. 
+    * Increases the efficiency of the lockpicker item, decreasing the amount of time required to open locked doors.  
 
-* __Stronger Beacon - $200__
-    * Prevents signal loss when crew members enter caves in the terminal/radar monitor.
+* __Explosion Resistance - $150__
+    * Increases the damage resistance  to explosions.
+
+* __Bullet Resistance - $200__
+    * Increases the damage resistance to bullets (turrets and shotgun).
+
+* __TZP Buffer - $100__
+    * Increases the effectiveness of the TZP-Inhalant's positive effects (movement speed and stamina drain efficiency) while decreasing the effectiveness of its negative effects (visual impairment)
+
 ## Item Progression Mode
 
 This mod offers an alternative mode for obtaining upgrades through selling items to The Company. The following modes are available for playthroughs:

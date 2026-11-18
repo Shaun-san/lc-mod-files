@@ -43,5 +43,4 @@ Although the main feature of this mod is the fixed crash code, there are several
 - `MidAirExplosions` - Lets you control the circumstances that would explode the jetpack.
   - `Off` only destroys the jetpack if you crash into something solid, which is almost certainly the original intent behind the jetpack's code.
   - `OnlyTooHigh` allows the jetpack to explode on its own again, but only if you are exceeding vanilla's "safe speed" while you are far above the map. (This is possibly Zeekerss' new intended behavior?)
-  - `Always` replicates v49's behavior, where the jetpack will always explode once it exceeds the safe speed.
-  - `DontChange` does not change vanilla's broken behavior at all.
+  - `Always` replicates vanilla's behavior the closest, where the jetpack will always explode once it exceeds the safe speed.

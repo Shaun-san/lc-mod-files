@@ -1,6 +1,6 @@
 {
     "name": "MaskFixes",
-    "version_number": "1.6.3",
+    "version_number": "1.6.2",
 	"website_url": "https://github.com/ButteryStancakes/MaskFixes",
     "description": "Fixes several problems with mask items and masked enemies.",
     "dependencies": [

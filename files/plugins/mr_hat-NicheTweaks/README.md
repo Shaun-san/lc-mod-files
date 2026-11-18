@@ -49,9 +49,6 @@
 #### Give Radmechs a larger hit collider
 - If true, gives the Radmech/Old Bird enemies a larger hitbox, mainly for use with mods where they are no longer immortal. However, as an unavoidable consequence, they can now grab you far easier, making them more difficult. Can also be used to just make them more difficult.
 
-#### Give Forest Giants a taller player hit collider
-- If true, makes the Forest Giant's taller body collider, allowing it to grab players above its torso.
-
 #### Give Butlers a taller player hit collider
 - If true, increases the height of Butlers player hit collider to allow them to have more vertical reach. This is to stop players sitting on the Mansion doorframe to avoid danger, amongst other high areas.
 
@@ -102,15 +99,6 @@
 #### Rearrange inventory after dropping
 - If true, moves inventory items left after dropping an item.
 
-#### Invert hotbar scroll direction
-- If true, reverses the scroll direction used to change hotbar slots
-
-#### Item swap interval override
-- If true, overrides the minimum time between inventory slot swaps
-
-#### Item drop interval override
-- If true, overrides how fast an item can be dropped after changing inventory slots
-
 #### Hide player names
 - If true, hides names above players.
 </details>
@@ -125,6 +113,8 @@
 #### Enable player volume saving
 - If true, enables player volume saving
 	- Compatible with global voice slider, saves the global voice slider value as well. Will overwrite any individual player volume save data.
+	- This does not run every frame, it runs every 0.1 seconds as long as you are in orbit and will disable itself when landing.
+	- Volume only saves to file when exiting the pause menu.
 
 #### Restart voice chat after landing
 - EXPERIMENTAL | If true, restarts voice chat once after landing on a moon. This may help with large voice chat desyncs after generating interiors.
@@ -170,9 +160,6 @@
 #### Disable speaker intro voice
 - If true, disables the ship speaker intro voice.
 
-#### Disable speaker route to company voice
-- If true, disables the ship speaker route to company voiceline.
-
 #### Fix teleporter glass text
 - If true, fixes the teleporter button and glass interaction text.
 
@@ -182,9 +169,6 @@
 #### Add light switch scan node
 - If true, adds a scan node to the ship light switch.
 
-#### Hide charger scan node
-- If true, hides the scan node on the ship item charger.
-
 #### Enable dropship item limit override
 - If true, overrides the dropship item limit.
 
@@ -193,9 +177,6 @@
 
 #### Auto recharge batteries in orbit
 - If true, charges battery powered items when entering orbit.
-
-#### Ship map camera rotation
-- Rotates the ship monitor map to face a certain direction.
 </details>
 
 ### UI
@@ -310,9 +291,6 @@
 
 #### Hide credits button
 - If true, hides the Credits button in the main menu.
-
-#### Prevent WASD menu navigation
-- If true, prevents WASD from moving the selected UI control. Arrow keys and controller navigation are unaffected.
 
 #### Fix utility slot item icon size
 - If true, fits the item icon to the utility slot.
@@ -435,15 +413,7 @@
 
 #### Flashlight toggle hotkey
 - If true, adds a keybind to toggle flashlights at any time. Requires LethalCompany InputUtils to be installed.
-	- Defaults to `F` and can be changed in the InputUtils keybind settings.
-	
-#### Walkie-talkie hotkey
-- If true, adds a keybind for using a walkie-talkie. Requires LethalCompany InputUtils to be installed.
-	- Defaults to `X` and can be changed in the InputUtils keybind settings.
-
-#### Use hotbar number hotkeys
-- If true, adds rebindable hotkeys for hotbar slots one through four. Requires LethalCompany InputUtils to be installed.
-	- Defaults to `1`, `2`, `3` and `4` and can be changed in the InputUtils keybind settings.
+	- Defaults to F and can be changed in the InputUtils keybind settings.
 </details>
 
 ### [LethalConfig](https://thunderstore.io/c/lethal-company/p/AinaVT/LethalConfig/)
@@ -556,14 +526,53 @@
 	- Requires [OopsAllFloodedFixed](https://thunderstore.io/c/lethal-company/p/NotezyTeam/OopsAllFloodedFixed/) to be installed.
 </details>
 
+### [EladsHUD](https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/) (Soon to be discontinued in NicheTweaks)
+<details>
+
+#### V80 utility slot compatibility
+- If true, allows the utility slot to be seen when using EladsHUD in Lethal Company V80.
+
+#### Reorganise EladsHUD
+- If true, moves InsanityDisplay's percentage down to be in line with Stamina and Oxygen. Requires [InsanityDisplay](https://thunderstore.io/c/lethal-company/p/Confusified/InsanityDisplay/) and [Oxygen](https://thunderstore.io/c/lethal-company/p/consequential/Oxygen/) to be installed and configured accordingly.
+
+<details>
+<summary><strong>Preview Images</strong></summary>
+
+![](https://i.imgur.com/Kf9AZMg.png)
+![](https://i.imgur.com/8HES8Fj.png)
+</details>
+
+#### Fix stamina bar 10% cap
+- If true, fixes stamina bar being unable to deplete to 0% properly.
+
+#### Disable stamina notch
+- If true, hides the notch on the stamina bar that's present during stamina drain.
+
+#### Hide weight
+- If true, hides weight UI.
+
+#### Trigger health bar popup on heal
+- If true, will show health bar when health increases as well rather than when only decreasing.
+
+#### Autohide stamina/oxygen/insanity bar
+- If true, automatically hides [stamina](https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/)/[Oxygen](https://thunderstore.io/c/lethal-company/p/consequential/Oxygen/)/[Insanity](https://thunderstore.io/c/lethal-company/p/Confusified/InsanityDisplay/) bar when at configured value for a period of time.
+- All bars have the following config options:
+	- Configurable time until fade
+	- Configurable number/percentage visibility
+	- Configurable starting percentage before fading timer starts (not done for insanity bar)
+
+#### Hide percentage dividers
+- If true, hides the percentage divider UI elements. These are the small dots between each percent number. Requires [Oxygen](https://thunderstore.io/c/lethal-company/p/consequential/Oxygen/) to be installed.
+
+</details>
+
+
 # Future plans
 - Screenshots for README
 - Swap from imgur to catbox
 
 # Credits
 Some tweaks originate from [GeneralImprovements](https://old.thunderstore.io/c/lethal-company/p/ShaosilGaming/GeneralImprovements/)
-
-Some tweaks originate from [HotbarPlus](https://old.thunderstore.io/c/lethal-company/p/FlipMods/HotbarPlus/)
 
 [Sniper1.1](https://thunderstore.io/c/lethal-company/p/Sniper1_1/) for pointing me in the right direction in regards to flashlights and their shadows.
 

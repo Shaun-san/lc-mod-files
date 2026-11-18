@@ -1,7 +1,3 @@
-# v1.6.4
-- `MidAirExplosions`
-  - `OnlyTooHigh` now explicitly checks for *upward* momentum when causing an explosion (which should make it more intuitive)
-  - Added `DontChange` setting to keep vanilla's broken and confusing behavior as-is
 # v1.6.3
 - All forms of crashing now deal "Inertia" damage instead of "Gravity" damage
 - Midair explosions now deal "Blast" damage instead of "Gravity" damage

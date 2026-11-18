@@ -1,10 +1,10 @@
 {
   "name": "Company_Globes",
-  "version_number": "1.2.2",
+  "version_number": "1.1.1",
   "website_url": "",
   "description": "[v80] Adds globe scrap that change depending on the moon.",
   "dependencies": [
-    "TeamXiaolan-DawnLib-0.9.26",
+    "TeamXiaolan-DawnLib-0.9.7",
     "BepInEx-BepInExPack-5.4.2305"
   ]
 }

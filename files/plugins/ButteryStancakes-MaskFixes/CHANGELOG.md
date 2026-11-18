@@ -1,5 +1,3 @@
-# v1.6.3
-- Added a bonus setting to disable the spinning on radar
 # v1.6.2
 - New bonus settings to show a "Body of" scan node on mimics (just like Cadaver Blooms)
 # v1.6.1

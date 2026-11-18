@@ -1,6 +1,3 @@
-## Version 2.4.2
-- Fixed an unclosed navmesh write when calling `NavMeshSurface.BuildNavMesh()` on a disabled or deactivated surface. This was causing crashes on some versions of NavMeshLib.
-
 ## Version 2.4.1
 - Fixed a crash that could occur, usually during ship landing, with `PatchOffMeshConnectionStutterStepping` enabled.
 
