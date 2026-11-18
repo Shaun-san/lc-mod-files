@@ -371,6 +371,81 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Beaniebe-Liminal_House/liminalhouse.lethalbundle"
         },
         {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_aloe",
+            "sha256": "788c976db1e1bb444c29764819bd4a7e17cf747c969eeef057c323e85845f715",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_aloe"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_beetler",
+            "sha256": "a84157ec8af3657a348352f22b979925a6df0570ae060318da2cdff24e9aa78b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_beetler"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_coilcrab",
+            "sha256": "dd6deaa28aeb63d8fb7d17b35d9df7c54b3ff130dc985f833553d65876fe1ef0",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_coilcrab"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_developer_scrap",
+            "sha256": "59b0120b3bdef8b872949ca4716c94e8fd985591a13271095b286d974a61a511",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_developer_scrap"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_micbird",
+            "sha256": "a38d24516c3c62d2f37d314e8d236c2b8f2f64b69da8280bd84b0303bdf11592",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_micbird"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_ogopogo",
+            "sha256": "a1cd3394bf1b997c9eff79cc0aa389995ee2b960bd53298bea1b582e09c30078",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_ogopogo"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_rock",
+            "sha256": "d6ca39ccdbeef4bb98079b18cd1bdf87871068b9f7a376714b43bd193e3d130b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_rock"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/biodiversity_video_clips",
+            "sha256": "7ffbd24fbac9af9092ec3e8c02a549051e3b8d013ae31bd4700ab931c2032f7e",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/biodiversity_video_clips"
+        },
+        {
+            "path": "plugins/Biodiversity/AssetBundles/critters",
+            "sha256": "c379bdc21fb69b6b84e62c824351dc5790d314531d0d0a37bce9e906ec5d1b71",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/AssetBundles/critters"
+        },
+        {
+            "path": "plugins/Biodiversity/com.github.biodiversitylc.Biodiversity.dll",
+            "sha256": "62cc6ee597467b06e310ba3e547a89793e5fcc4646aba7f96ca048074d376be0",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/com.github.biodiversitylc.Biodiversity.dll"
+        },
+        {
+            "path": "plugins/Biodiversity/lang/de.json",
+            "sha256": "fcf325ff1fa406d69a0c3d1084cf6d5cec2b08bc6f0bdca553c2366051cc9ef5",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/de.json"
+        },
+        {
+            "path": "plugins/Biodiversity/lang/en.json",
+            "sha256": "6ae0e27bbc6b55663df6cce50e739bffb960a964ed0b6649d4aec63d37457d6a",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/en.json"
+        },
+        {
+            "path": "plugins/Biodiversity/lang/es.json",
+            "sha256": "3a4d256673dcace0b91b951cde6051bedbf250926fd0a6c1a50854c34befe5e5",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/es.json"
+        },
+        {
+            "path": "plugins/Biodiversity/lang/fr.json",
+            "sha256": "b3bb36bfe952adc5424218d0f0dfc0e77d1b846e39e90efe44513e8d8805f143",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/fr.json"
+        },
+        {
+            "path": "plugins/Biodiversity/lang/ru.json",
+            "sha256": "aed072810179b4da341a04a579d0786e39adc9156fee323ed75bd7be568666cc",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/ru.json"
+        },
+        {
             "path": "plugins/BoomBoxBattery/BoomboxBattery.dll",
             "sha256": "8484d0153592656e994c0127190534211d6f7a7b33e3398c248d44edee1d507d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BoomBoxBattery/BoomboxBattery.dll"
@@ -7204,81 +7279,6 @@
             "path": "plugins/SoftDiamond-RollingGiant/RollingGiant.dll",
             "sha256": "9eab318d3ea03a0c9fb13d1603615ccda2206c973a1fd798535348a5dffc95dd",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/SoftDiamond-RollingGiant/RollingGiant.dll"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_aloe",
-            "sha256": "788c976db1e1bb444c29764819bd4a7e17cf747c969eeef057c323e85845f715",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_aloe"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_beetler",
-            "sha256": "a84157ec8af3657a348352f22b979925a6df0570ae060318da2cdff24e9aa78b",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_beetler"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_coilcrab",
-            "sha256": "dd6deaa28aeb63d8fb7d17b35d9df7c54b3ff130dc985f833553d65876fe1ef0",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_coilcrab"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_developer_scrap",
-            "sha256": "59b0120b3bdef8b872949ca4716c94e8fd985591a13271095b286d974a61a511",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_developer_scrap"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_micbird",
-            "sha256": "a38d24516c3c62d2f37d314e8d236c2b8f2f64b69da8280bd84b0303bdf11592",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_micbird"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_ogopogo",
-            "sha256": "a1cd3394bf1b997c9eff79cc0aa389995ee2b960bd53298bea1b582e09c30078",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_ogopogo"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_rock",
-            "sha256": "d6ca39ccdbeef4bb98079b18cd1bdf87871068b9f7a376714b43bd193e3d130b",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_rock"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_video_clips",
-            "sha256": "7ffbd24fbac9af9092ec3e8c02a549051e3b8d013ae31bd4700ab931c2032f7e",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/biodiversity_video_clips"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/critters",
-            "sha256": "c379bdc21fb69b6b84e62c824351dc5790d314531d0d0a37bce9e906ec5d1b71",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/AssetBundles/critters"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/com.github.biodiversitylc.Biodiversity.dll",
-            "sha256": "62cc6ee597467b06e310ba3e547a89793e5fcc4646aba7f96ca048074d376be0",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/com.github.biodiversitylc.Biodiversity.dll"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/de.json",
-            "sha256": "fcf325ff1fa406d69a0c3d1084cf6d5cec2b08bc6f0bdca553c2366051cc9ef5",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/de.json"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/en.json",
-            "sha256": "6ae0e27bbc6b55663df6cce50e739bffb960a964ed0b6649d4aec63d37457d6a",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/en.json"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/es.json",
-            "sha256": "3a4d256673dcace0b91b951cde6051bedbf250926fd0a6c1a50854c34befe5e5",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/es.json"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/fr.json",
-            "sha256": "b3bb36bfe952adc5424218d0f0dfc0e77d1b846e39e90efe44513e8d8805f143",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/fr.json"
-        },
-        {
-            "path": "plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/ru.json",
-            "sha256": "aed072810179b4da341a04a579d0786e39adc9156fee323ed75bd7be568666cc",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/super_fucking_cool_and_badass_team-Biodiversity/Biodiversity/lang/ru.json"
         },
         {
             "path": "plugins/Swaggies-BetterEXP/LCBetterEXP.dll",
