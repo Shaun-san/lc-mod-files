@@ -2,7 +2,8 @@
     "replacements": [
         {
             "matches": [
-                "LightSwitchContainer:LightSwitch:FlashlightClickMini2"
+                "LightSwitchContainer:LightSwitch:FlashlightClickMini2",
+                "SwightLitch:Swightlich:FlashlightClickMini2" // beanie floodlight
             ],
             "sounds": [
                 {
@@ -17,7 +18,8 @@
         },
         {
             "matches": [
-                "LightSwitchContainer:LightSwitch:FlashlightClickMini"
+                "LightSwitchContainer:LightSwitch:FlashlightClickMini",
+                "SwightLitch:Swightlich:FlashlightClickMini" // beanie floodlight
             ],
             "sounds": [
                 {
@@ -32,7 +34,8 @@
         },
         {
             "matches": [
-                "*:MoveShipObjectPaper"
+                "LightSwitchContainer:PlacementCollider:MoveShipObjectPaper",
+                "SwightLitch:PlacementCollider:MoveShipObjectPaper" // beanie floodlight
             ],
             "sounds": [
                 {

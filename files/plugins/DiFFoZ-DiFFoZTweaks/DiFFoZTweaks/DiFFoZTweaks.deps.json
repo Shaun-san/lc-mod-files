@@ -7,12 +7,13 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "DiFFoZTweaks/1.6.1": {
+      "DiFFoZTweaks/1.7.2": {
         "dependencies": {
           "BepInEx.AssemblyPublicizer.MSBuild": "0.4.2",
           "BepInEx.Core": "5.4.21",
           "DiFFoZTweaks.Patcher": "0.0.0",
-          "LethalCompany.GameLibs.Steam": "81.0.0-ngd.0"
+          "LethalCompany.GameLibs.Steam": "81.0.0-ngd.0",
+          "Zehs-MelaniesVoice": "1.8.0"
         },
         "runtime": {
           "DiFFoZTweaks.dll": {}
@@ -497,18 +498,26 @@
           }
         }
       },
+      "Zehs-MelaniesVoice/1.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/com.github.zehsteam.MelaniesVoice.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
       "DiFFoZTweaks.Patcher/0.0.0": {
         "runtime": {
           "DiFFoZTweaks.Patcher.dll": {
-            "assemblyVersion": "1.6.1.0",
-            "fileVersion": "1.6.1.0"
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "DiFFoZTweaks/1.6.1": {
+    "DiFFoZTweaks/1.7.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -652,6 +661,13 @@
       "sha512": "sha512-zpu5dELUCFt7Rvvzp50iTrfVusJg+2gmlcaytGEoHYuIP+AOv57X272czjp+sA8N1onPo/IiHFnOEFtT9rLJBA==",
       "path": "unityengine.modules/2022.3.62",
       "hashPath": "unityengine.modules.2022.3.62.nupkg.sha512"
+    },
+    "Zehs-MelaniesVoice/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRqfWlOEn8yX84ddyuJxybMeS8D5YinoD+t6evLr5F/sCTiCKG2PKM0L+sis4UV189x6iw7vn9kOCP4MucG70g==",
+      "path": "zehs-melaniesvoice/1.8.0",
+      "hashPath": "zehs-melaniesvoice.1.8.0.nupkg.sha512"
     },
     "DiFFoZTweaks.Patcher/0.0.0": {
       "type": "project",

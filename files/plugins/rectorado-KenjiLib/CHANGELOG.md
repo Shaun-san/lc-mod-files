@@ -1,3 +1,38 @@
+## 0.12.1
+
+* Changed the modversion internally
+
+## 0.12.0
+
+* Added **KStunExplosion.**
+* Added an optional **GUID** option for **KTriggerCooldownTimer** to have persistent cooldowns for objects that may get despawned or destroyed.
+* Fixed **KWeatherExtras** logspamming "*customFloodedAudio is null*" even when the "**EnableCustomFlooded**" option was off
+* Potential fix to **KWeatherExtras**' "**EnableCustomStormy**" thunderstorms not working on subsequent days.
+* Cleaned a couple of WIP scripts that should not be showing in editor.
+* Added a bit more context to some debug logs.
+
+## 0.11.4
+
+* *LightsBackOn()* from **KLightsEvent** now succesfully turns the lights back on after re-activating the power
+
+## 0.11.3
+
+* Fixed a problem with **KInteractableDisabler**
+
+## 0.11.0
+
+* KenjiLib now has some network capabilities I think, I need to learn how to incorporate them into the some of the scripts if I do that in the future i will document it. The ones networked will have it mentioned next to the name so you know you don't need something like JClientSync
+* Succesfully exported as ***Release*** instead of ***Debug***
+* Added **KTriggerCooldownTimer \[Networked]**
+* Added **KTriggerInteractableDisabler** **\[Networked]**
+* Added **KSignalCallSender** and **KSignalCallReceiver \[Partially Networked]**
+* Added **KEventCounter \[Partially Networked]**
+* Added **KLogUnlocker** **\[LLL]**
+* Updated **KRunOnUpdate**
+
+  * Now it is a bit more flexible, you can run on update for X seconds and activate the function every Y number of seconds instead of every frame.
+* Cleaned the code a little
+
 ## 0.7.1
 
 * Updated **KDestroyAroundShip**

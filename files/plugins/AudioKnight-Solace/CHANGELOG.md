@@ -1,3 +1,9 @@
+* 4.0.2
+
+  * Fixed missing secret.
+
+
+
 * 4.0.1
 
   * Fixed Feiopars not functioning correctly.

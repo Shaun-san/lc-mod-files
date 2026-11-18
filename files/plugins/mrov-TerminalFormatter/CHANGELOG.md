@@ -1,3 +1,11 @@
+# 0.3.9
+
+- fixed an issue with group settings breaking the game
+
+# 0.3.8
+
+- fixed an issue with store/moon page group sizes were not carried over from TerminalUtils (thanks, `zangtooshort`!)
+
 # 0.3.7
 
 - fixed an issue with the `Route` nodes displaying shortened weathers

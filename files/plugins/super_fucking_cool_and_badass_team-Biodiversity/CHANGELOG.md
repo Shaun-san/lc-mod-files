@@ -1,3 +1,44 @@
+## Version 0.2.9.5 - Scrap-recap Patch
+
+#### Junk Radar:
+
+* Temporarily removed. Will eventually become a separate mod away from Biodiversity.
+
+#### Rock:
+
+* Added.
+
+#### Coil-crabs:
+
+* No longer collides with cruiser.
+
+#### Leaf boys:
+
+* Now can die.
+* No longer collides with the cruiser.
+
+#### Aloe:
+
+* Added new sounds for when you catch sight of them. You may recognize these from Lethal Resonance!
+
+#### Prototax:
+
+* Fixed its poison gas bubble being cubic and way too large.
+* Made them slower walkers.
+
+#### Ogopogo:
+
+* Fixed location on the new March layout.
+
+#### Misc:
+
+* Fixed the dev scraps spawn weights being nuts
+* Fixed/added dev scrap functionality, value, positioning and more
+
+
+
+...And probably a bunch of other small fixes I forgot about lol
+
 ## Version 0.2.9. - THE SCRAPHEAP PATCH.
 
 * Fixed the mod for V81!
@@ -12,8 +53,8 @@
 #### Misc:
 
 * Added the Scrap Radar
-- Collect one by searching outdoors on Experimentation, March or Artifice!
-- Use it while outdoors to search for a multitude of unique and valuable scrap items!
+* Collect one by searching outdoors on Experimentation, March or Artifice!
+* Use it while outdoors to search for a multitude of unique and valuable scrap items!
 * To compensate the Scrap Radar, added 7 new scrap items obtainable only through this feature (one of which has a variant).
 
 ## Version 0.2.8. - Post v73 Patch.

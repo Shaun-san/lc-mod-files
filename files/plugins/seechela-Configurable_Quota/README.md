@@ -1,7 +1,7 @@
-<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;">
-  <a href="https://www.codefactor.io/repository/github/se3ya/lc-configurablequota"><img src="https://img.shields.io/codefactor/grade/github/se3ya/LC-ConfigurableQuota?style=flat&logo=codefactor&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="CodeFactor Grade"></a>
-  <a href="https://thunderstore.io/c/lethal-company/p/seechela/Configurable_Quota/"><img src="https://img.shields.io/thunderstore/dt/seechela/Configurable_Quota?style=flat&logo=thunderstore&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="Thunderstore Downloads"></a>
-  <a href="https://github.com/se3ya/LC-ConfigurableQuota/releases"><img src="https://img.shields.io/github/v/release/se3ya/LC-ConfigurableQuota?style=flat&logo=github&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="GitHub Release Version"></a>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;">
+  <img src="https://img.shields.io/codefactor/grade/github/se3ya/LC-ConfigurableQuota?style=flat&logo=codefactor&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="CodeFactor Grade">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fthunderstore.io%2Fapi%2Fv1%2Fpackage-metrics%2Fseechela%2FConfigurable_Quota%2F&query=%24.downloads&label=downloads&style=flat&logo=thunderstore&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="Thunderstore Downloads">
+  <img src="https://img.shields.io/github/v/release/se3ya/LC-ConfigurableQuota?style=flat&logo=github&logoColor=white&color=83E6FB&cacheSeconds=1200" alt="GitHub Release Version">
   <a href="https://discord.gg/Z9rUwTtUpx"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FZ9rUwTtUpx%3Fwith_counts%3Dtrue&query=approximate_member_count&style=flat&logo=discord&logoColor=white&color=83E6FB&cacheSeconds=1200&label=Discord" alt="Discord"></a>
   </div>
 <br><br>
@@ -18,26 +18,26 @@
 - Configure growth dampening which slows down quota increases the longer you play
 - Configure player count scaling with threshold, cap and per player multiplier
 - Configure rollover which transfers any extra fulfilment to the next quota
-- Configure randomized deadline
+- Configure randomized deadline with a min and max day range
 - Configure deadline days that grow with the quota by credit interval or by exact thresholds
 - Configure credit penalties when crew members die
 - Configure quota penalties when crew members die
 - Configure randomly lost scrap items on a full crew wipe
 - Configure reduced scrap value on full crew wipe
 - Configure randomly lost purchased equipment on a full crew wipe
-- Disable quota entirely
-- Configure new quota animation speed
-- Show actual penalty values on fine UI
-- Configure the Company's buy rate with min/max clamp, random rate, last-day override and jackpot rolls
+- Configure the Company buy rate with min/max clamp, random rate, last day override and jackpot rolls
 - Configure dynamic interior size that scales with player count
 - Configure dynamic scrap value with player-count scaling (solo or full lobby can be boosted)
 - Configure dynamic scrap item count with player-count scaling
 - Configure dynamic enemy power that scales with player count
-- __LethalConstellations__ compatibility with per-constellation deadline modes _[ fixed, random or use global ]_
+- Configure bee hive values by distance from ship
+- Configure new quota animation speed
+- Disable quota entirely, deadline monitor then reads NEVER
+- **LethalConstellations** compatibility with per-constellation deadline modes *[ fixed, random or use global ]*
 
 ---
 
-## Configuration Options
+## Configuration
 
 ### **0. Basic**
 
@@ -148,9 +148,10 @@ multiplier = 1 + 2 * 0.25 = 1.5x
 
 ### **3. Optional**
 
-- **Disable Quota** - Disables the quota system entirely
+- **Disable Quota** - Disables quota system entirely
 - **Rollover Amount** - Percentage of excess fulfillment that carries over to the next quota. 0 = none
-- **Rollover Wipe Penalty** - lose percentage of banked rollover when the entire crew dies. 0.5 = 50%
+- **Rollover Wipe Penalty** - lose percentage of rollover when the entire crew dies. 0.5 = 50%
+- **Rollover Alert Enabled** - Red alert when rollover stops covering the quota. On by default, local to you
 
 **Rollover example**: quota was 100, you sold $150 of scrap (overage = $50), `RolloverAmount = 0.5`:
 
@@ -158,10 +159,14 @@ multiplier = 1 + 2 * 0.25 = 1.5x
 carried = $50 * 0.5 = $25 → applied toward next quota
 ```
 
+Rollover pays the whole quota every deadline, so it drops by one quota per cycle while the quota grows.
+$20000 of rollover against a $7000 quota lasts about three quotas. When it stops covering, the ship warns you
+once with the amount you still have to sell.
+
 ### **4. Penalties.Credits / 5. Penalties.Quota**
 
 - **Enabled** - Apply the penalty when crew members die
-- **On Gordion** - Apply the penalty even at The Company
+- **On Company Moons** - Apply the penalty even at a company moons
 - **Percent Per Player** - Per-death amount when `Dynamic = false`
 - **Dynamic** - Switch to ratio-based mode using `PercentCap` as the scale
 - **Percent Cap** - Hard ceiling (fixed mode) / scale (Dynamic mode)
@@ -180,19 +185,19 @@ if recovered > 0:
 if pct < PercentThreshold: pct = 0
 ```
 
-**Example A** — fixed mode, 8-player lobby, 2 dead, `PercentPerPlayer=0.15`, `PercentCap=0.5`:
+**Example A** - fixed mode, 8-player lobby, 2 dead, `PercentPerPlayer=0.15`, `PercentCap=0.5`:
 
 ```
 pct = 2 * 0.15 = 30%   (under 50% cap → applied as-is)
 ```
 
-**Example B** — dynamic mode, 8-player lobby, 2 dead, `PercentCap=0.05`:
+**Example B** - dynamic mode, 8-player lobby, 2 dead, `PercentCap=0.05`:
 
 ```
 pct = (2 / 8) * 0.05 = 1.25%
 ```
 
-**Example C** — recovery bonus, 4 dead, 2 recovered, `RecoveryBonus=0.5`, base 30%:
+**Example C** - recovery bonus, 4 dead, 2 recovered, `RecoveryBonus=0.5`, base 30%:
 
 ```
 pct = 30% * (1 - 0.5 * 2/4) = 30% * 0.75 = 22.5%
@@ -203,7 +208,9 @@ pct = 30% * (1 - 0.5 * 2/4) = 30% * 0.75 = 22.5%
 - **Enabled** - Randomly lose collected scrap items when the entire crew is wiped
 - **Items Safe Chance** - Chance for each item to be protected from loss
 - **Lose Each Scrap Chance** - Chance to lose an unprotected item
-- **Max Lost Scrap Items** - Maximum scrap items that can be lost per round
+- **Max Lost Scrap Items** - Maximum scrap items that can be lost per wipe. Loose scrap is rolled first, then stored items
+- **Only Lose Current Day Loot** - Wipe only takes scrap collected that day. Affects _7. Loss.Value_ too
+- **Only Current Day Max Players** - Older scrap is only safe up to this lobby size. 1 = solo only, 0 = no limit. REQUIRES `OnlyLoseCurrentDayLoot`
 
 **Per-item loss chance**:
 
@@ -234,7 +241,7 @@ remaining = (1 - 0.25)³ = 0.75³ ≈ 0.42
 
 - **Enabled** - Randomly lose purchased equipment when the entire crew is wiped
 - **Lose Each Equipment Chance** - Chance for each equipment item to be lost
-- **Max Lost Equipment Items** - Maximum equipment items lost per round
+- **Max Lost Equipment Items** - Maximum equipment items lost per wipe
 
 **Example**: 6 equipment items on the ship, `LoseEachEquipmentChance=0.05`, `MaxLostEquipmentItems=1`:
 
@@ -248,10 +255,10 @@ expected losses ≈ 6 * 0.05 = 0.3 items per wipe (capped at 1)
 
 ### **A. Dynamic.Interior.Size**
 
-Scales the moons interior multiplier by player count.
+Scales moons interior by player count
 
-- **Enabled** - Toggle
-- **BaseSize** - Starting multiplier applied before the player factor
+- **Enabled** - Resize the moons interior by lobby size. Skipped at company moons
+- **BaseSize** - Multiplier on moons own size at the threshold
 - **PlayerThreshold** - Player count where scaling kicks in
 - **ScalingDirection** - `PerMissingPlayer` (boost when below threshold) or `PerExtraPlayer` (boost when above threshold)
 - **MultPerPlayer** - Multiplier added per player
@@ -262,25 +269,24 @@ Scales the moons interior multiplier by player count.
 count  = PerMissingPlayer ? max(0, PlayerThreshold - playerCount)
                           : max(0, playerCount - PlayerThreshold)
 factor = 1 + count * MultPerPlayer
-size   = BaseSize * factor
+size   = moon size * BaseSize * factor
 ```
 
 **Example** (`PerExtraPlayer`, `PlayerThreshold=2`, `MultPerPlayer=0.10`, `BaseSize=1.0`):
 
-| Players | count | factor | size |
-|---:|---:|---:|---:|
-| 1 | 0 | 1.00 | 1.00 |
-| 2 | 0 | 1.00 | 1.00 |
-| 3 | 1 | 1.10 | 1.10 |
-| 4 | 2 | 1.20 | 1.20 |
+| Players | count | factor | Experimentation (1.0) | Titan (2.2) |
+|---:|---:|---:|---:|---:|
+| 1 | 0 | 1.00 | 1.00 | 2.20 |
+| 2 | 0 | 1.00 | 1.00 | 2.20 |
+| 3 | 1 | 1.10 | 1.10 | 2.42 |
+| 4 | 2 | 1.20 | 1.20 | 2.64 |
 
 ### **B. Dynamic.Scrap.Value**
 
-Scales the moons min/max total scrap value with a player count factor.
+Multiplies value of every scrap moon spawns by player count factor
 
-- **Enabled** - Toggle
-- **ScrapValueOffset** - Flat credits added to both min and max after scaling
-- **MinValueMultiplier / MaxValueMultiplier** - Extra scale applied to the moons min/max values
+- **Enabled** - Scale scrap value by player count. Skipped at company moons
+- **MinValueMultiplier / MaxValueMultiplier** - Extra multiplier rolled once per landing
 - **PlayerThreshold** - Player count where scaling kicks in
 - **ScalingDirection** - `PerMissingPlayer` (boost when below threshold) or `PerExtraPlayer` (boost when above threshold)
 - **MultPerPlayer** - Multiplier added per player
@@ -291,25 +297,23 @@ Scales the moons min/max total scrap value with a player count factor.
 count  = PerMissingPlayer ? max(0, PlayerThreshold - playerCount)
                           : max(0, playerCount - PlayerThreshold)
 factor = 1 + count * MultPerPlayer
-min    = round(baseMinTotalScrapValue * MinValueMultiplier * factor) + ScrapValueOffset
-max    = round(baseMaxTotalScrapValue * MaxValueMultiplier * factor) + ScrapValueOffset
+extra  = random between MinValueMultiplier and MaxValueMultiplier
+value  = item value * factor * extra
 ```
 
-**Solo boost example** (`PerMissingPlayer`, `PlayerThreshold=2`, `MultPerPlayer=0.15`, `MinMult=1.0`, `MaxMult=1.0`, `Offset=0`):
+**Solo boost example** (`PerMissingPlayer`, `PlayerThreshold=2`, `MultPerPlayer=0.15`, `MinMult=1.0`, `MaxMult=1.0`):
 
-| Players | factor | base min/max | scaled min/max |
-|---:|---:|---:|---:|
-| 1 (solo) | 1.15 | $1200 / $1800 | $1380 / $2070 |
-| 2+ | 1.00 | $1200 / $1800 | $1200 / $1800 |
+| Players | factor | $80 item becomes |
+|---:|---:|---:|
+| 1 (solo) | 1.15 | $92 |
+| 2+ | 1.00 | $80 |
 
 ### **C. Dynamic.Scrap.Amount**
 
-Scales the moons min/max scrap item count off baseMinTotalScrapValue, with a player count factor.
+Multiplies moons own min and max scrap count by player count factor
 
-- **Enabled** - Toggle
-- **ValuePerScrapItem** - Divisor on the scaled value: lower = more items per moon
-- **MinScrapFraction** - `minScrap = round(maxScrap * this)`
-- **MaxScrapItemsCap** - Hard ceiling on `maxScrap`. `-1` disables the cap
+- **Enabled** - Scale the moon's scrap count by player count. Skipped at company moons
+- **MaxScrapItemsCap** - Most items a moon can roll after scaling. `-1` disables the cap
 - **PlayerThreshold** - Player count where scaling kicks in
 - **ScalingDirection** - `PerMissingPlayer` (boost when below threshold) or `PerExtraPlayer` (boost when above threshold)
 - **MultPerPlayer** - Multiplier added per player
@@ -320,33 +324,23 @@ Scales the moons min/max scrap item count off baseMinTotalScrapValue, with a pla
 count    = PerMissingPlayer ? max(0, PlayerThreshold - playerCount)
                             : max(0, playerCount - PlayerThreshold)
 factor   = 1 + count * MultPerPlayer
-maxScrap = max(1, round(baseMinTotalScrapValue * factor) / ValuePerScrapItem)
-if cap >= 0: maxScrap = min(maxScrap, MaxScrapItemsCap)
-minScrap = max(1, round(maxScrap * MinScrapFraction))
+minScrap = max(1, round(moon minScrap * factor))
+maxScrap = round(moon maxScrap * factor)
+if cap >= 0: maxScrap = min(maxScrap, MaxScrapItemsCap), minScrap = min(minScrap, maxScrap)
 ```
 
-**Solo boost example** (defaults: `PerMissingPlayer`, `PlayerThreshold=2`, `MultPerPlayer=0.15`, `Divisor=25`, `Fraction=0.6`):
+**Solo boost example** (`PerMissingPlayer`, `PlayerThreshold=2`, `MultPerPlayer=0.15`, no cap):
 
-| baseMinTotalScrapValue | Players | factor | maxScrap | minScrap |
-|---:|---:|---:|---:|---:|
-| $200 | 1 (solo) | 1.15 | 9 | 5 |
-| $200 | 2+ | 1.00 | 8 | 5 |
-| $1,000 | 1 | 1.15 | 46 | 28 |
-| $1,000 | 4 | 1.00 | 40 | 24 |
-
-**Tighter cap** (`MaxScrapItemsCap=15`):
-
-| baseMinTotalScrapValue | Raw maxScrap | Capped | minScrap |
-|---:|---:|---:|---:|
-| $500 | 20 | 15 | 9 |
-| $1,000 | 40 | 15 | 9 |
-| $2,000 | 80 | 15 | 9 |
+| Moon | Vanilla | 1 player (1.15) | 2+ players |
+|---|---:|---:|---:|
+| Experimentation | 8-12 | 9-14 | 8-12 |
+| Titan | 28-32 | 32-37 | 28-32 |
 
 ### **D. Dynamic.Enemy.Power**
 
 Scales moons enemy power budgets by player count. Higher budget = more / stronger enemies can spawn.
 
-- **Enabled** - Toggle
+- **Enabled** - Scale enemy power by player count. Skipped at company moons
 - **ScaleInside** - Apply to `maxEnemyPowerCount`
 - **ScaleOutside** - Apply to `maxOutsideEnemyPowerCount` (night time outside enemies)
 - **ScaleDaytime** - Apply to `maxDaytimeEnemyPowerCount` (daytime enemies)
@@ -374,15 +368,28 @@ maxDaytimeEnemyPowerCount *= factor   (if ScaleDaytime)
 | 4 | 2 | 1.30 | 10 | 10 |
 | 8 | 6 | 1.90 | 15 | 15 |
 
+### **E. Company.Moons**
+
+- **Forced Company Moons** - Comma separated moon names always treated as company moon. Matches 71 Gordion or just Gordion
+- **Excluded Company Moons** - Comma separated moon names never treated as company moon. Wins over Forced Company Moons
+- **Apply Losses On Company Moons** - Run loss settings at company moon. Off, the game destroys all collected scrap
+
+### **F. Bee.Hive**
+
+- **Enabled** - Roll hive values from ranges below instead of vanilla
+- **DistanceThreshold** - Hives closer to ship than this use Near range
+- **NearMinValue / NearMaxValue** - Value range near ship
+- **FarMinValue / FarMaxValue** - Value range further out
+
 ### **X. Buy.Rate**
 
-Native port of *BuyRateSettings* features. All entries default OFF; the Company's daily buy rate is vanilla until you enable something here. The host computes the rate and broadcasts it to clients — no desync.
+Native port of *BuyRateSettings* features. All entries default OFF, so the Company's daily buy rate is vanilla until you enable something here. The host computes the rate and sends it to clients, so no desync.
 
 - **MinMaxEnabled** - Clamp daily buy rate to `[MinRate, MaxRate]`. Required for `RandomRateEnabled`
 - **MinRate / MaxRate** - The clamp / random-pick bounds (e.g. `0.2` = 20%)
 - **RandomRateEnabled** - Pick the daily rate uniformly in `[MinRate, MaxRate]`
 - **LastDayRateEnabled** - On the deadline's last day, override using `LastDayMinRate / LastDayMaxRate`
-- **LastDayRangeChance** - Chance to use the range; on miss, fall back to 100%
+- **LastDayRangeChance** - Chance to use the range. On a miss it falls back to 100%
 - **LastDayMinRate / LastDayMaxRate** - Last-day bounds (or fixed if equal)
 - **JackpotEnabled** - Allow a chance to roll a jackpot rate
 - **JackpotLastDayOnly** - Only roll the jackpot on the deadline's last day
@@ -410,7 +417,20 @@ Native port of *BuyRateSettings* features. All entries default OFF; the Company'
 | Last day, no jackpot   | `1.2` (120%) from last-day override         |
 | Last day, jackpot hits | Random pick in `[1.5, 3.0]` + red alert     |
 
-### **Compatibility — LethalConstellations**
+---
+
+## Compatibility
+
+- [LethalConstellations](https://thunderstore.io/c/lethal-company/p/darmuh/LethalConstellations/)
+- [LethalMoonUnlocks](https://thunderstore.io/c/lethal-company/p/explodingMods/LethalMoonUnlocks/)
+- [Self Sorting Storage](https://thunderstore.io/c/lethal-company/p/Zigzag/SelfSortingStorage/)
+- [HQoL](https://thunderstore.io/c/lethal-company/p/HQHQTeam/HQoL/)
+- [Lategame Upgrades](https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/)
+- [Scrap Insurance](https://thunderstore.io/c/lethal-company/p/WhiteSpike/Scrap_Insurance/)
+- [GeneralImprovements](https://thunderstore.io/c/lethal-company/p/ShaosilGaming/GeneralImprovements/)
+- [Advanced Features](https://thunderstore.io/c/lethal-company/p/lethal_coder/Advance_Features/)
+
+### **LethalConstellations**
 
 A separate `com.seeya.configurablequota_constellations.cfg` is auto-generated only when LethalConstellations is detected. Each constellation gets its own block:
 
@@ -433,7 +453,7 @@ Not recommended.
 ## Credits
 
 - Developed by **[seeya](https://thunderstore.io/c/lethal-company/p/seechela/)**
-- Inspired mostly from QuotaOverhaul, AfineQuota, BuyRateSettings, CustomDeathPenalty and ChocoQuota
+- Inspired mostly from QuotaOverhaul, AfineQuota, BuyRateSettings, CustomDeathPenalty, ChocoQuota and SafeSoloScrap
 
 ---
 

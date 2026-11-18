@@ -105,6 +105,15 @@ All changes can be toggled on/off, though most are enabled by default.
 
 </details>
 
+<details>
+<summary><b>Fixed spawn rate boost when collecting most of profit quota in a single day</b></summary>
+
+- If there are 2 days (or less) before deadline, it's after 11:24 AM, and you have picked up enough items to meet the profit quota, indoor spawns will be temporarily increased for the rest of the day.
+- However, this condition is actually intended to apply when you have discovered 80%+ of profit quota, not 100%+.
+- This mod restores the intended behavior.
+
+</details>
+
 ## Compatibility
 
 `Consistent Spawn Times` applies the bulk of new changes I implemented into this mod. If you only want the settings from [Buttery Fixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/ButteryFixes/) back, then you can disable that one setting and everything else will work as it did before.

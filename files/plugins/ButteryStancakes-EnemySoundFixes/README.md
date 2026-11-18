@@ -37,7 +37,6 @@ Fixes numerous issues with missing sound effects, or SFX playing when they shoul
 - Fixed breathing sound sometimes overlapping (playing twice from one dog)
 - Fixed breathing sometimes stopping completely after attacking
 - Fixed missing hit sound effect
-- Fixed other enemies' dead bodies playing hit sounds when dog stepped on them
 - "Added death sound"
   - Actually just the stun sound, reused
   - This can be disabled in the config, since it's a bit more of a subjective change
@@ -65,10 +64,9 @@ Fixes numerous issues with missing sound effects, or SFX playing when they shoul
 </details>
 
 <details>
-<summary>Baboon hawks</summary>
+<summary>Girl</summary>
 
-- Fixed other enemies' dead bodies playing hit sounds when baboons touched them
-- Fixed playing attack sound when touching other enemies' dead bodies
+- Removed doppler effect on voice (to reduce distortion immediately after she teleports)
 
 </details>
 
@@ -114,7 +112,6 @@ Fixes numerous issues with missing sound effects, or SFX playing when they shoul
 - Fixed death sound sometimes not playing
 - Fixed "growling" sound sometimes getting stuck when not dragging a player
 - Fixed drooling after being killed
-- Fixed other enemies' dead bodies playing hit sounds when fox stepped on them
 
 </details>
 
@@ -140,6 +137,13 @@ Fixes numerous issues with missing sound effects, or SFX playing when they shoul
 <summary>Backwater Gunkfish</summary>
 
 - Added some fallback code to mute audio on death (issue in vanilla? inconclusive)
+
+</details>
+
+<details>
+<summary>Feiopars</summary>
+
+- Fixed missing hit sound effect
 
 </details>
 
@@ -213,6 +217,8 @@ Despite the (now outdated) name, this mod also fixes several other sounds unrela
 - Flashlights and laser pointers now alternate between toggle audios (like light switches), rather than randomizing
 - Walkie-talkies now emit "chatter" SFX when they are in use by another player (if you don't have one turned on in your inventory)
   - Can be disabled in config
+- Fixed gift box playing drop sound when opened
+- Fixed easter eggs playing dorp sound when exploding
 
 </details>
 
@@ -228,5 +234,12 @@ Despite the (now outdated) name, this mod also fixes several other sounds unrela
   - Defaults to 0.333x which makes the effect more subtle.
 - Fixed microwave "hum" not playing automatically until you opened and closed the door back
 - Fixed disco ball volume getting too loud when turning it off
+- Squeaky lamp on ship no longer has doppler effect
+- Fixed "ambience library" from previous level being reused when landing on a moon which
+  - Does not define its own library
+  - Does not spawn enemies or scrap
+- Level ambience no longer plays on moons that lack the normal gameplay loop (spawning enemies and scrap)
+- Fixed broken 200s cooldown for ambience tracks
+- Fixed cavern "vents" only playing spawn SFX for their first assigned enemy
 
 </details>

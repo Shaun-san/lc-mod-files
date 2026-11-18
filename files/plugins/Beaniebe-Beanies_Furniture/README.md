@@ -5,8 +5,6 @@ A collection of vanilla plus furniture and pocket rooms that should spruce up yo
 
 # Credits
 
-MelanieMelicious: For tirelessly working on pocket room lib and painstakingly helping guide me through making pocket rooms, im sorry for torturing you mel
-
 Pacoito: For graciously fixing LLL's furniture registry
 
 Sketchfab Assets:
@@ -89,10 +87,3 @@ Bed - 150 Credits
 A large bed that makes noises when you jump on it! Note: It is quite large and it can be a little cramped if you dont have room for it!
 
 <a href="https://ibb.co/0yxQD75R"><img src="https://i.ibb.co/s9Ztmf7d/Screenshot-2025-11-14-233604.png" alt="Screenshot-2025-11-14-233604" border="0" /></a>
-
-Drink Fridge - 250 Credits
-
-A large drink fridge that has several layers capable of storing items. Comes with interior lighting to see in the dark.
-
-<a href="https://ibb.co/60FbRdpM"><img src="https://i.ibb.co/hFVHRqn6/Screenshot-2026-04-01-205311.png" alt="Screenshot-2026-04-01-205311" border="0" /></a>
-

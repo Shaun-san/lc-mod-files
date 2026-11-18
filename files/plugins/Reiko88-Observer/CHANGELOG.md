@@ -112,7 +112,7 @@ Bug report and feature suggestion credits! from modding discord:
 
 **BUFFS:**
 
-**These buffs aim to make the Chasers more of a threat.** 
+**These buffs aim to make the Chasers more of a threat.**
 
 * Chaser now runs at a speed of 8
 * The chase timer ticks down slower when the Chaser is in a different area to the player (inside/outside)
@@ -133,9 +133,20 @@ Bug report and feature suggestion credits! from modding discord:
 
 
 
+## 2.1.0
+
+**IMPROVEMENTS:**
+
+* Refactored code
+* Re-added the marked voiceline
+* Fixed README issues
+* Greatly reduced the file size of the mod
 
 
 
+**BUG FIXES:**
+
+* Fixed a bug where the observer would continue doing the Siren animation when its target dies during chase or reanimation
 
 
 

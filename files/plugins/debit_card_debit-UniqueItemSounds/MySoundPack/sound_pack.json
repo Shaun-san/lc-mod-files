@@ -130,8 +130,16 @@
             "description": "Enables grab, drop, & pocket sounds for each type of Sample provided by killing enemies.",
             "default": true
         },
+        "Wesley:VoidItems": {
+            "description": "Enables audio for 'void' variants of applicable vanilla items from Rubber Rooms. This respects your configuration of the vanilla items too, so for example, if you disabled the normal Toy Cube sounds then you wouldn't hear its void version regardless of whether this config is enabled.",
+            "default": true
+        },
         "ReusedSounds:Wesley": {
-            "description": "Applies Fancy Lamp audio to the Tall Lamp from Trite by Wesley.",
+            "description": "Applies relevant sounds to the Tall Lamp, De-weed bottle, and Mrov sauce.",
+            "default": true
+        },
+        "ReusedSounds:LightSwitches": {
+            "description": "Applies Light switch audio to the ones found in Melanie's pocket rooms, the item from TestAccountVariety.",
             "default": true
         },
         "ReusedSounds:LC_Office": {
@@ -139,7 +147,7 @@
             "default": true
         },
         "ReusedSounds:MetalItemVariants": {
-            "description": "Applies Cookie Pan & Egg Beater audio to the similar items from MetalItemVariants.",
+            "description": "Applies Cookie pan, Egg beater, and Golden cup audio to the similar items from MetalItemVariants.",
             "default": true
         },
         "ReusedSounds:LCGoldScrapMod": {

@@ -1,3 +1,6 @@
+# v1.2.1
+- Slight refactoring to transpilers (users should notice no changes)
+- Bolstered error handling for spraying Cadavers/Vains to try and prevent a bizarre vanilla issue which caused excessive lag and broken Cadaver AI
 # v1.2.0
 - v81 compatibility
 # v1.1.2

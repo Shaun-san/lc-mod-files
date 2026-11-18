@@ -33,10 +33,6 @@ Additionally, if you're the creator of a scrap mod & would like to use any of my
 
 > [Images coming mayb eventually]
 
-### [CodeRebirth](https://thunderstore.io/c/lethal-company/p/XuXiaolan/CodeRebirth/)
-
-> [Images coming maybe eventualy]
-
 ***
 # Credits
 Credits to TheMatty for making the original RuntimeIcons and implementing such a nice system to be used by others, as well as for helping me understand how that system works to make this addon better.

@@ -1,3 +1,7 @@
+# v1.0.4
+- Fixed hitbox for Scissors making it difficult / impossible to grab them from cupboards
+- Added basic weights for custom moons 
+
 # v1.0.3
 - Lowered weights for Big nail on March and Offense
 - Adjusted resting rotations for Scissors, Rusty metal grinder, and Bundle of cords (thanks [debbicar](https://thunderstore.io/c/lethal-company/p/debit_card_debit/))

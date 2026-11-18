@@ -1,0 +1,87 @@
+{
+    "replacements": [
+        {
+            "matches": "*:VoidFancyLamp:VoidDropMetalObject2",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidFancyLamp_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:FancyLamp",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:VoidFancyGlass:VoidDropMetalObject1",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidGoldenCup_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:GoldenCup",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:VoidToyCube:VoidShovelPickUp",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidToyCube_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ToyCube",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:VoidToyCube:VoidDropPlastic",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidToyCube_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ToyCube",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:VoidZedDogGrab",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidZedDog_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ZedDog",
+                "value": true
+            }
+        },
+        {
+            "matches": "*:VoidZeddogPlushie:VoidDropMetalObject3",
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Weley/VoidZedDog_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:ZedDog",
+                "value": true
+            }
+        }
+    ],
+    "condition": {
+        "type": "config",
+        "config": "Wesley:VoidItems",
+        "value": true
+    }
+}

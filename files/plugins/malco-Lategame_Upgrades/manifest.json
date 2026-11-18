@@ -1,6 +1,6 @@
 {
   "name": "Lategame_Upgrades",
-  "version_number": "3.14.1",
+  "version_number": "3.14.3",
   "website_url": "https://github.com/Malcolm-Q/LC-LateGameUpgrades",
   "description": "Mod focused on providing many upgrades which are purchaseable from the terminal through an interactive application. Most if not all of the available upgrades are configurable to allow customized experiences to everyone's liking.",
   "dependencies": [

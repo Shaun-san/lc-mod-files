@@ -1,3 +1,14 @@
+- 1.2.2
+  - Actually fixed the client joining issue now (for some reason joining clients would load a level called TestAllEnemies when joining)
+
+- 1.2.1
+  - Fixed the furniture completely breaking for clients upon joining
+
+- 1.2.0
+  - Added a standing globe furniture - Model is a WIP and I'm still bug testing it currently
+  - Potentially fixed the globe models disappearing under certain circumstances when reloading a save (Experimentation globes keep turning into other types of globe though, I need to look into that)
+  - Embrion and Adamance should no longer be tiny if using Chameleon
+
 - 1.1.1
   - Removed some debug stuff
   - Fixed a small loaded type error

@@ -1,3 +1,7 @@
+# v2.2.4
+- Handle nested classes in LogWrapping
+- Add special parsing for enumerator classes in LogWrapping
+
 # v2.2.3
 - fix crash when quitting the game caused by early Garbage Collection
 

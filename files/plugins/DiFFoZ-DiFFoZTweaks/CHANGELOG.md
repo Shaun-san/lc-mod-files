@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.2
+- Added optional verbose logging of every RPC being sent.
+
+## 1.7.0
+- TZP voice pitch effect is now working with more than 4 players by using LethalPerformance API.
+- A patch to MelaniesVoice to use voice group audio mixer, so TZP effect would apply to TTS.
+
 ## 1.6.0
 - Added logging for RPCs sent on unspawned NetworkBehaviours and for deferred messages purged by Netcode.
 - Added extra logging when a spawned NetworkObject is destroyed on a non-host client.

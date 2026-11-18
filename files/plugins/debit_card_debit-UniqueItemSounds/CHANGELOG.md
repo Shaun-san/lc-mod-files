@@ -2,6 +2,20 @@
 ### G = Grab, D = Drop, P = Pocket, M = Moving furniture
 
 ***
+# 0.2.5
+- (Wesley) Applied weed killer audio to De-weed bottle & Red soda audio to the Mrov sauce
+- (Beanies Ship Upgrades) Applied light switch audio to the Floodlight switch
+- (MetalItemVariants) Applied golden cup drop audio to the 3 variants of it in this mod
+
+# 0.2.4
+lowkey i was meant to upload this a whole month ago and just, forgot entirely. whoopsies
+
+- Added Golden cup's grab sound
+- If using EnemySoundFixes, you'll be able to hear the grab sounds for toothpaste/candy/pill bottle again. Thanks Buttery for adding this compatibility over 1 month ago (uniqueitemsounds also depends on ESF now because why not)
+- (Wesleys_Interiors) Added Void versions of existing audio for the Void variants of the fancy lamp, golden cup, toy cube, and zed dog
+- Light switch clicking sounds now apply to the Light Switch item from TestAccountVariety & the light switches in Melanie's pocket rooms. It doesn't sound perfectly accurate because in both cases they only use 1 audio source for turning on & off, so i had to make it randomize which click plays instead of it alternating like it does for the vanilla one.
+- Light switch's placement sound will no longer be heard when moving the shutter lever from ShipWindows (also for compatibility with what i did for it in [VariousAudioTweaks](https://thunderstore.io/c/lethal-company/p/debit_card_debit/VariousAudioTweaks/))
+
 # 0.2.3
 Added:
 - Bundle of cords from SigurdsScrap `(G/D)`

@@ -1,3 +1,12 @@
+# v1.3.3
+- Re-uploaded with asset bundle
+# v1.3.2
+- Fixed Earth Leviathan behavior during the blizzard
+  - This also changes footstep sounds to more accurately reflect the surface material you are walking on
+# v1.3.1
+- Vain shrouds are now blanketed in snow by the blizzard
+# v1.3.0
+- Now enables Artifice's original leftover terrain files, for genuine authenticity (made possible by v80's shader changes)
 # v1.2.0
 - [Lobby Compatibility](https://thunderstore.io/c/lethal-company/p/BMX/LobbyCompatibility/) integration
 - [Rebalanced Moons](https://thunderstore.io/c/lethal-company/p/dopadream/RebalancedMoonsBeta/) compatibility

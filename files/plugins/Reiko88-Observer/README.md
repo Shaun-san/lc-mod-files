@@ -1,4 +1,4 @@
-# THE OBSERVER V2
+# THE OBSERVER
 
 
 
@@ -12,7 +12,7 @@
 
 ## ENEMY BACKGROUND
 
-<img src="https://github.com/Reiko888/test/blob/main/ObserverBestiary-ezgif.com-optimize%20(1).gif?raw=true" width="1080">
+<img src="https://raw.githubusercontent.com/Reiko888/ModMisc/refs/heads/main/ObserverBestiary-ezgif.com-optimize%20(1)%20(1).gif" width="1080">
 
 ## OBSERVER REVAMP - UPDATE V2
 The Observer has been given a huge update with new features, improvements and bug fixes. To use the old version, download a version below V2 in versions tab. To see in-depth overview of update, see changelog tab.
@@ -48,7 +48,7 @@ If killed by the player, the chaser drops the weapon it was using and the Observ
 
 
 
-<img src="https://raw.githubusercontent.com/Reiko888/test/refs/heads/main/chasersv2.png" width="1080">
+<img src="https://raw.githubusercontent.com/Reiko888/ModMisc/refs/heads/main/chasersv2.png" width="1080">
 
 
 ## CREDITS

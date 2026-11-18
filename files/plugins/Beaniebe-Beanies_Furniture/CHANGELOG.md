@@ -1,3 +1,15 @@
+-1.0.6 - Bugfixes, animation improvements and sad news
+
+	-fixed the freezer and updated its materials, etc
+	
+	-beanbag chair now uses the sofa chair sitting anim and no longer rotates the player. much cozier!
+
+	-the drink freezer is just gone. idk what to say man it just disappeared. It was really ugly anyways so I plan on remaking a similar "glass cupboard with lights" furniture in the future. sorray...
+
+-1.0.5 - v81
+
+	-no more motion blur you are welcome kenji enjoy!!!
+
 -1.0.4 - credits
 
 	-added credoot

@@ -8,10 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Known Issues
 - Reinstalling the mod may sometimes cause modded language data to be deleted.
 
+# 2.4.2 (2026-09-22)
+## Fixed
+- Fixed a bug where a player standing on certain ground types could sometimes spam the log.
+- Fixed a bug where a Jetpack on the ground (not held by a player) would spam the log.
+
 # 2.4.1 (2026-05-10)
 ## Changed
 - Reduced the log level and frequency of some logs to make Coroner less spammy.
-## Fixed
 - Fixed dying to a Bracken not being detected properly.
 
 # 2.4.0 (2026-04-28)

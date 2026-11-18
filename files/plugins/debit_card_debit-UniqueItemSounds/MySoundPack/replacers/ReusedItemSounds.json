@@ -15,6 +15,86 @@
                 "value": true
             }
         },
+        {
+            "matches": [
+                "*:Mrovsauce:DropMetalObject1",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:Mrovsauce:ShovelPickUp",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab1.ogg",
+                    "weight": 80
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/RedSoda_Grab2.ogg",
+                    "weight": 20
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:DeWeedBottle:DropPlastic2",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:DeWeedBottle:HoldTZP",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:DeWeedBottle:PickUpPlasticBin",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Equipment/WeedKiller_Pocket.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:Wesley",
+                "value": true
+            }
+        }
     ],
     "replacements": [
         {
@@ -193,6 +273,40 @@
                 "value": true
             }
         },
+        {
+            "matches": [
+                "*:BronzeFancyGlass:DropMetalObject1",
+                "*:SilverFancyGlass:DropMetalObject1",
+                "*:GoldFancyGlass:DropMetalObject1",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/GoldenCup_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:BronzeFancyGlass:emptygrab",
+                "*:SilverFancyGlass:emptygrab",
+                "*:GoldFancyGlass:emptygrab",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/GoldenCup_Grab.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:MetalItemVariants",
+                "value": true
+            }
+        },
     ],
     "replacements": [
         {
@@ -277,6 +391,29 @@
             "condition": {
                 "type": "config",
                 "config": "ReusedSounds:LCGoldScrapMod",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:PrefabLightSwitch:UseLightSwitch",
+                "*:Bedroom0Light:FlashlightClickMini2",
+                "*:StockRoom0Light:FlashlightClickMini2",
+                "*:Cellar0Light:FlashlightClickMini2",
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/LightSwitch_On.ogg",
+                    "weight": 1
+                },
+                {
+                    "sound": "UniqueItemSounds/Vanilla Decor/LightSwitch_Off.ogg",
+                    "weight": 1
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "ReusedSounds:LightSwitches",
                 "value": true
             }
         }

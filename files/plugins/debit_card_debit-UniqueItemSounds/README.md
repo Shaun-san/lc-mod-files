@@ -4,8 +4,7 @@ Have you ever noticed many items in this game share the same sounds for actions 
 
 Each of the included sounds were recorded on a Blue Snowball microphone and edited with Audacity, using various objects I found around my house & some bought just for the purposes of this mod. I intend for all future additions to be the same way (without using any sort of stock/free sounds from the internet), so updates will be infrequent.
 
-### Items with new sounds
-> At some point i want to include photos of the irl objects used for each of these items, but im just soooo lazy
+# Items with new sounds
 
 #### Vanilla scrap:
 - Candy
@@ -49,14 +48,15 @@ Each of the included sounds were recorded on a Blue Snowball microphone and edit
 - Signal translator
 - Table
 
-> I've also decided to apply some of these sounds to items from mods that are either variants or similar enough to vanilla scrap. I suppose this makes my audio slightly less "unique" but oh well. This is the case for:
+> I've also decided to apply some of these sounds to items from mods that are either variants or similar enough to vanilla scrap. This is the case for:
 > - Tall lamp from Wesley's Moons / Trite
+> - Void variants of applicable items from Wesley's Rubber Rooms interior
 > - All custom soda cans from LC_Office
-> - Variants of some items from MetalItemVariants & LCGoldScrapMod
+> - Variants of applicable items from MetalItemVariants & LCGoldScrapMod
 
 Feedback is welcome! You can find me in the [thread in the modding discord](https://discord.com/channels/1168655651455639582/1431555180620681306).
 
-# Showcase (old; from version 0.1.0)
+# Showcase (very old video from version 0.1.0)
 https://www.youtube.com/watch?v=_qhC35YEeFU
 
 # Limitations

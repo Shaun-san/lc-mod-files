@@ -9,9 +9,8 @@ Biodiversity is a mod that aims to expand Lethal Company's current selection of 
 
 - ### 3 Enemy variants
 - ### 1 Sub-entities
-- ### 3 Critter variants (simpler, environmental entities).
+- ### 4 Critter variants (simpler, environmental entities).
 - ### 8 Scrap items (and variations)
-- ### 1 Tool
 - And more coming Soon™.
 
 # Entities
@@ -56,22 +55,23 @@ Careful... They're conductive!
 
 </details>
 
-### [ Vermin, Prototax and Leaf boys ] - Ogopogo sub-entity, and the critter variants
+### [ Vermin, Prototax, Rocks and Leaf boys ] - Ogopogo sub-entity, and the critter variants
 
 <details><summary> Spoilers </summary>
 <br>
-Vermin, Prototax and Leaf boys are some of Biodiversity's more simple entities. <br>
+Vermin, Prototax, Rocks and Leaf boys are some of Biodiversity's more simple entities. <br>
 
 ![](https://trello.com/1/cards/66ba42b997c2d06a884a4d1b/attachments/66ba42bf991651190a17bd4d/download/crittersreadme.png)
 <br> Vermin are the spawn of the Ogopogo, and come out during floods or after their parent Ogo has dragged prey into their nest. <br> Try smacking em! <br> <br>
 Prototax are four legged fungi creatures related (non-biologically) to Spore lizards. Just like spore lizards, they wander around and remain passive, though Prototax will release spore clouds only when damaged. <br> Their spores are toxic, so leave them be! <br> <br>
-Leaf boys are small, leaf-like organisms that like to run around and have fun during the early hours of the day. <br> They're quite fearful, so watch yourself around them at night! They might attract unwanted attention.
+Leaf boys are small, leaf-like organisms that like to run around and have fun during the early hours of the day. <br> They're quite fearful, so watch yourself around them at night! They might attract unwanted attention. <br> <br>
+Rocks are strange creatures with incredibly tough boulders as "armor" that they use to disguise themselves. They sit around all day doing basically nothing unless attacked, in which case they will run away as fast as their legs can carry them!
 
 </details>
 
 # Items
 
-### [ Developer Scrap ] 
+### [ Developer Scrap (ReadMe WIP) ] 
 We implemented these to commemorate members of our team and thank them for their hard work! <br>
 
 <details><summary> Nethersome's rubber duck </summary>
@@ -82,6 +82,7 @@ Min value: 0 <br>
 Max value: 100 <br>
 Weight: 0lb <br>
 Rarity: 2 <br> <br>
+
 
 ![](https://trello.com/1/cards/66ccf39ae06fd565d61db7de/attachments/66ccf3a0aa7383de04ca95b5/download/netherduck1.png)<br>
 
@@ -103,30 +104,13 @@ Rarity: 2 <br> <br>
 ![](https://trello.com/1/cards/66ccf39ae06fd565d61db7de/attachments/66ccf48f18b43c541a81562a/previews/66ccf49018b43c541a815631/download/netherduck7.png)
 </details>
 
-### [ Scrap Radar ] - Unique tool 
-
-<details><summary> Spoilers </summary>
-<br>
-An old, torn-apart face mask to which a forgotten likeness is lost to time. They're often found half-buried in the dirt on Experimentation, March and Artifice, discarded and neglected. Perhaps there is more to uncover beneath its mysterious guidance... <br> <br>
-
-Weight: 19 lbs <br>
-Rarity: Only found on 3 moons outdoors (configurable). <br>
-
-Allows for the digging mechanic to be accessed. Items will spawn outdoors buried in the ground, and the Junk Radar can detect where they reside. Just follow the arrows!  <br>
-
-![](https://files.trello.com/66049a492e0cfe2eca3472cd/6a08869ff805e572464ae1da/a4f35167bb208f64fe3c1ae708696ad8/image.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9maWxlcy50cmVsbG8uY29tLzY2MDQ5YTQ5MmUwY2ZlMmVjYTM0NzJjZC82YTA4ODY5ZmY4MDVlNTcyNDY0YWUxZGEvYTRmMzUxNjdiYjIwOGY2NGZlM2MxYWU3MDg2OTZhZDgvaW1hZ2UucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzc4OTQ0ODAwfSwiRGF0ZUdyZWF0ZXJUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3Nzg5NDM1OTl9fX1dfQ__&Key-Pair-Id=K28SYADB5F0657&Signature=klYxCps2bMaXHYtcfaM3zy-SkOzOpsGzSm1o06SDoeXhZIOMJKkiC0MOvZtCe41laVVWZU8ulQqJVm1~OsGONZeJKsmah1qyjDRo9MZH~KfLPDWI6b7J0PgRIERxe8eliZJH59-riBdqPBIrT~S6Scj4AW6pO8Sh~yejce2KCuIDcB6Q3OnXq~c2vhRU2wY3HAuwZuOxyVNtP0q1sKQKOQHSDA4z9QkPTB2uTAHYLOR8Cf2nQLxITVPqvH89bb9utzBamiGzEL1ppZbdmVPvkVH9V54uSPnI9W5gziaGQikcsZCS4Na-MfSLBBI09wrG78Pw9EML73VnfqT61qNVmg__)
-
-</details>
-
 # Roadmap - What can I expect from Biodiversity in the future? <br>
 
 We have big plans for the future, here's a rough outline of what's to come!
 - A variety of new enemy variants.
 - A few more critter variants.
-- A few cool items.
-- More scrap items.
+- A few cool dev items.
 - More environmental interactions.
-- Unique spawn mechanics. 
 <br>
 
 # Known Issues - Whoops :3 <br>
@@ -134,12 +118,15 @@ We have big plans for the future, here's a rough outline of what's to come!
 There are some problems with our entities that we'll look into fixing in the future, like:
 - Ogopogo is NOT supported on moons other than the ones in the default spawn rarity config. If you add spawn weights for moons not in the defaults or anywhere it's not made to be in, the enemy will not work as intended.
 - Ogopogo also has a couple issues with spamming Warnings in the game logs if any moving Navmesh (cruisers, Bozoros ferris wheel, etc.) is present on the moon. This is due to technical issues with what Unity wants fighting with what Ogopogo insists.
-- The Prototax's spore spew has a number of issues regarding its visuals. The fog itself renders as a cube, and it stops expanding once it collides with things like ReverbTriggers.
-- Leaf boys are non-killable, which can lead to Eyeless dogs getting stuck trying to kill them. This is something we'll attempt to address later.
 <br>
 
 # Credits
 ### Here's all of the wonderful people who helped make this possible!
+
+### bio-monty:
+Previous Director, project manager, lead concept artist, lead concept designer, texture painter, beta tester, sound guy, translator (Spanish), world's 1st most annoying boss. <br> I do commissions :P <br>
+Twitter: https://x.com/phomtoonlink
+________
 
 ### JacuJ:
 New 1/2 Director, project manager, modeler, sound design, animator, concept designer, beta tester, world's 2nd most annoying boss. <br>
@@ -147,11 +134,6 @@ ________
 
 ### mr.saltedbeef:
 New 1/2 Director, project manager, concept artist & designer, beta tester, world's 3rd most annoying boss. <br>
-________
-
-### bio-monty:
-Previous Director, project manager, lead concept artist, lead concept designer, texture painter, beta tester, sound guy, translator (Spanish), world's 1st most annoying boss. <br> I do commissions :P <br>
-Twitter: https://x.com/phomtoonlink
 ________
 
 ### s1ckboy:
@@ -211,8 +193,6 @@ ________
 
 ### Nethersome:
 Lead critter animator, Wax Soldier animator and modeler. <br>
-Thanks to Gamexing for duck textures! <br>
-Check out his movement! <br>
 Youtube:  https://www.youtube.com/@nethersome826
 ________
 

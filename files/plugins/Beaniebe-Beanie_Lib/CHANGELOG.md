@@ -1,3 +1,7 @@
+- 1.1.0
+
+	-added scripts for my personal enemy variants
+
 - 1.0.8
 
 	-Added text counting script, identical to trigger counter but will visually display the current count value, and can count downwards!

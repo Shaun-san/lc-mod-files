@@ -1,5 +1,10 @@
 # Good Item Scan Mod
 
+## 2.2.0
+
+\* Fixed a race condition that results in a NullReferenceException<br>
+\# Replaced previous dictionary cache with a dedicated component<br>
+
 ## 2.1.0
 
 \# Lots of breaking changes!

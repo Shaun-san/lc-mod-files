@@ -5,6 +5,52 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.3] 2026-10-08
+### Fixed
+- Notification of failed audio mixer patch shows up when DiFFoZTweaks was not installed.
+
+## [1.5.2] 2026-10-07
+### Added
+- In-game notification when patch to the audio mixer was failed.
+### Changed
+- Removed pitch effect bypass reapply when snapshot transition is called.
+### Fixed
+- GeneralImprovements auto online feature was causing audio mixer to patch modded instead of vanilla mixer. (Thanks ZetaArcade!)
+- First tile instantiation could cause main thread blocked waiting.
+
+## [1.5.1] 2026-09-29
+### Changed
+- Updated README.
+### Fixed
+- Item parenting with RandomScrapSpawn didn't work on clients. (Thanks ZaboomafooW!)
+
+## [1.5.0] 2026-09-26
+### Added
+- DunGen optimizations: a less GC allocs, using pre-cached data, deleting ProBuilderMesh, and async tile instantiation.
+- Fast packing of the HDRP cached shadow atlas.
+- Patch to not restart the Dissonance voice capture pipeline when lag spike happens.
+### Changed
+- Updated README.
+- Disabling even more HDRP rendering settings.
+- Reenabled camera burst patch for LCVR.
+- No longer sets cached shadow atlas size to 8192.
+### Fixed
+- Audio mixer patch to snapshots didn't capture all values, now TZP effect should match the same as vanilla.
+
+## [1.4.3] 2026-09-14
+### Fixed
+- The fifth player joined causing SFX volume to be changed.
+
+## [1.4.2] 2026-09-13
+### Added
+- Patch to EasyTextEffect to remove GC allocs (used in loading screen).
+### Fixed
+- Some audios still playing even if master volume is set to zero (e.g. Waterfall on Galetry).
+
+## [1.4.0] 2026-09-08
+### Added
+- API to update diegetic audio mixer to add 46 new voice groups for MoreCompany. This change allows to make TZP voice pitch to work (requires DiFFoZTweaks to be installed https://thunderstore.io/c/lethal-company/p/DiFFoZ/DiFFoZTweaks/)
+
 ## [1.3.0] 2026-08-30
 ### Added
 - Caching of enemies, items, and more networked objects (EnemyAI, item types, ItemCharger, BridgeTrigger, AnimatedObjectTrigger, InteractTrigger, and others).

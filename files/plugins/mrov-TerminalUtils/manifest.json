@@ -2,7 +2,7 @@
   "namespace": "mrov",
   "name": "TerminalUtils",
   "description": "A terminal utility for Lethal Company, providing dynamic preview options, command registration and more.",
-  "version_number": "0.0.16",
+  "version_number": "0.0.18",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100",
     "mrov-MrovLib-0.4.14"

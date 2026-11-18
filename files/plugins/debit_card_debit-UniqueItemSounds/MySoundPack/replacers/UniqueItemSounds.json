@@ -61,6 +61,7 @@
             "matches": [
                 "*:PillBottle:ShovelPickUp",
                 "*:PillBottle:PickUpPlasticBin",
+                "*:PillBottle:empty",
             ],
             "sounds": [
                 {
@@ -151,6 +152,7 @@
             "matches": [
                 "*:Toothpaste:ShovelPickUp",
                 "*:Toothpaste:PickUpPlasticBin",
+                "*:Toothpaste:empty",
             ],
             "sounds": [
                 {
@@ -215,6 +217,7 @@
             "matches": [
                 "*:Candy:ShovelPickUp",
                 "*:Candy:PickUpPlasticBin",
+                "*:Candy:empty",
             ],
             "sounds": [
                 {
@@ -558,6 +561,21 @@
             "sounds": [
                 {
                     "sound": "UniqueItemSounds/Vanilla Scrap/GoldenCup_Drop.ogg"
+                }
+            ],
+            "condition": {
+                "type": "config",
+                "config": "Items:GoldenCup",
+                "value": true
+            }
+        },
+        {
+            "matches": [
+                "*:FancyGlass:ShovelPickUp"
+            ],
+            "sounds": [
+                {
+                    "sound": "UniqueItemSounds/Vanilla Scrap/GoldenCup_Grab.ogg"
                 }
             ],
             "condition": {

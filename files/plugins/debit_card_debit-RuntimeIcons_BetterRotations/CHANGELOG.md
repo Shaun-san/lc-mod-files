@@ -1,4 +1,572 @@
-# 1.2.17
+# 1.2.23 - 2026-11-09
+fixed shit that i broke because i didn't test it because im an idiot
+
+# 1.2.22 - 2026-11-09
+### wesley
+adjusted rotation of wallet & geigercounter
+
+### Boom_Variants
+- Frost egg & Small egg now use an image to prevent partially cracked icons
+
+Added:
+- [img] KS23
+- [img] Decapiteuse (moved from Boom_Scraps)
+- [img] Thompson
+- [img] Armsel Shotgun H
+- [img] Beneli H
+- [img] EASTER-CANON
+- Mud Core
+- Cop Mask
+- Firefighter Mask
+- Driver Mask
+- Hunter Mask
+- Thompson Cartridge
+- Primordial Goop
+- Red-Ammo
+
+### Boom_Scraps
+Added:
+- Ammoboxes
+- [img] Empaleuse
+- [img] Mine Lantern
+- [img] Spray Gun
+
+### Thistle_Nebula_Archive_Scrap
+Fixed icons of items that were renamed
+
+Added:
+- Empty canister
+- Old battery
+- Sample container
+
+### Generic_Equipment
+- Fixed Heavy sledgehammer icon due to the bundle name changing
+- +2 images for Audio lure & Portable clock
+
+### Lethal_Pyrkon
+Added:
+- Kremek z rurkiem
+- Dupoiika
+- [img] Max Bull Bottle
+- [img] Max Bull Can
+- Cabbage
+- Dupa sign
+
+***
+
+<details>
+<summary>Click to reveal changelogs of previous versions</summary>
+
+# 1.2.21 - 2026-10-28
+
+<details>
+<summary>Click to expand</summary>
+
+### Wesleys_Moons
+Icons of new Obscurity items should now work if using individual moon/interior releases
+
+Action figure icons look different now; instead of having their respective amount of stars at the top, it's now indicated in the upper right corner with a number to make it more compact. (also fixed the images of action figures that had their models updated in Obscurity, i initially did not realize that was the case)
+
+<mark>Adjusted:</mark>
+- Each of the trial tickets
+- Solover's recording / The entity
+- Biomonty
+- Coconut
+- Coconikki
+- Toaster
+- Microphone
+- Human heart
+- Honey dipper
+- Porcelain teacup
+- Thermometer
+- Scalpel
+- Ritual dagger
+- the Haunted relics
+
+<mark>+2:</mark>
+- Honey stinger treat
+- Porcelain bottle
+
+### Lategame_Upgrades
++1 img for Medic Bag
+
+</details>
+
+# 1.2.20 - 2026-09-27
+
+<details>
+<summary>Click to expand</summary>
+
+Temporary fix to the following DawnLib item mods while having LethalLevelLoader 1.7.8+ installed:
+- TerrasScrap
+- LethalThingsReloaded
+- Legmr Moons
+- UtilityPylons
+- CodeRebirth
+- abandonedcompanyassetsfork
+- MisideItems
+- Glitchy Scrap
+- MetalItemVariants
+- Melanie farming cooking mod
+- Jinn
+- Melanie crafting core
+- SigurdsScrap
+
+### Boom_Variants
++18:
+- Small Egg
+- Gib-Shell
+- Garden-Shell
+- Glass Shell
+- P-Engine
+- Ice Core
+- Sand Core
+- Pine Sap
+- Sap-Hive
+- Sirup-Hive
+- Grant
+- Beneli
+- Winson
+- Glass Canon
+- Armsel Shotgun
+- Armsel Striker
+- Blunderbuss
+- GIB-CANON
+
+### Boom_Scraps
+Fixed SRT icon not displaying
+
+### Weley moon
+Fixed possessed walkie & police walkie having wrong angle
+
+### Kenjis_Moons
+Adjusted Manuland VHS
+
+### LethalThingsReloaded
++1 img for Utility Belt
+
+### 48_Contingency
++1 for Sopping Zed Dog
+
+### Generic_Scraps
+Fixed icons not working for the latest version
+
+Adjusted:
+- Cleaner bottle
+- Bluetonium bar
+- Big coupling (previously Big nut)
+
+### Biodiversity
+Removed entries for items no longer in the mod
+
++1 for Audun plush
+
+Adjusted
+- Coil-shell
+- Iron dog
+
+</details>
+
+# 1.2.19 (weley obscure Part 2) - 2026-09-19
+
+<details>
+<summary>Click to expand</summary>
+
+### Vanilla
+Adjusted rotation of Heart
+
+### Wesley
+> everything should now be properly up-to-date! WITH THE EXCEPTION OF newly-introduced items *if playing an individual moon release*. This is unlikely to be an issue for most people since you would need to have only 1 moon installed without interiors or ememy variants. I'll eventually fix this later on when I feel like it.
+
+- hopefully fixed Gas tanks not having the right rotation
+- updated images of Experiment Log items
+
+<mark>Added:</mark>
+
+<details>
+<summary>Click to expand</summary>
+
+- Glass of milk
+- Glass of gunk
+- Glass of glass'os
+- Propane tank
+- Glowing orb
+- Box of crocs
+- Gold coin
+- Ancient pot
+- Honeycomb
+- Crystal ball
+- Magnificent crystal ball
+- Ruined crystal ball
+- Pristine idolised cube
+- Oil lantern
+- Gutting knife
+- Salt action figure
+- Scissors
+- Stethoscope
+- Watching petri dish
+
+</details>
+
+<mark>Adjusted / Fixed:</mark>
+
+<details>
+<summary>Click to expand</summary>
+
+- Pickaxe
+- Glass maze trophy
+- Amber's diary
+- Bucket of shards
+- Bucket
+- Boulder
+- Golden boulder
+- Large pot
+- Bag of clothes (previously known as Clothes)
+- Generator
+- Chunk of celestial brain
+- Cosmochad
+- Evil cosmochad
+- Lil cosmo
+- Evil cosmo
+- Gold trophy
+- Gunpowder barrel
+- Large cardboard box
+- Circular saw
+- Chainsaw
+- Machine parts
+- Crescent of curses
+- Laptop
+- Grown Petri Dish
+- Dying grown petri dish
+- Brain jar
+- Diamond
+- Big dynamite
+- Bronze trophy
+- Gore bucket
+- Bucket of coal
+- Bucket of iron
+- Bucket of gold
+- Comb sunglasses
+- Glasses
+- Gas mask
+- Beholder's eye
+- Big red button
+- Branch
+- Amethyst cluster
+- Cosmic Shard
+- Grapes
+- Cosmic Growth
+- Dying cosmic growth
+- Crystalline rock
+- Crankshaft
+- Lava crystal
+- Ice crystal
+- Dead ice crystal
+- BIO-HXNV7
+- Broom
+- Cardboard box
+- Hole coral
+- Horned shell
+- Big nut
+- Skull
+- Golden skull
+- Jack's skull
+- Brain coral
+- Camera
+- Fire extinguisher
+- Handcuffs
+- Wooden arrow
+- Map of cosmocos
+- Egg container
+- Keyring
+- Frog
+- Bottle
+- Rum bottle
+- Glass eye
+- Nutcracker eye
+- Test tube
+- Blue test tube
+- Green test tube
+- Yellow test tube
+- Red test tube
+- Geigercounter
+- Canister
+- Crystal ball
+- Magnificent crystal ball
+- Ruined crystal ball
+- Cursed coin
+- Heavy Flashlight
+- Raven skull
+- Golden mask
+- Large ribcage
+- Crystalline ribcage
+- Laundry basket
+- Laundy basket
+- The painting
+- Huge harold
+- Harold hammer
+- Mortor's mortar
+- Random Miner's Recording
+- Stone of purification
+- Pink spinel crystal
+- Red onyx crystal
+- Yellow citrine crystal
+- Battery
+- Security camera
+- Badge
+- Wallet
+- Slotmachine
+- Assimilated jester skull
+- Assimilated spore lizard leg
+- Box cutter
+- Brooding seed
+- Assimilated bunker spider
+- Old candle holder
+- Candle holder
+- Cardboard box
+- Chair
+- Chunk of Overseer
+- Concrete block
+- Concrete pillar
+- Cosmic flashlight
+- Dying cosmic flashlight
+- Rock
+- Demon candle
+- Drinking bird
+- Fish bones
+- Flintlock
+- Chunk of harold
+- Ice chunk
+- Steel ingot
+- Marble
+- Crystalline measuring tape
+- Medical syringe
+- Metal detector
+- Microscope
+- Microphone
+- Minecart
+- Morse bleeper
+- Mortar hammer
+- Oil can
+- Oil shale
+- Oil Tank
+- Old Pipe
+- Old radio
+- The entity / Solover's recording
+- Oval vial
+- Pencil
+- Painful pencil
+- Pencil sharpener
+- Police helmet
+- Police walkie
+- Possessed walkie
+- Potted plant
+- Puffbulb
+- Pyntrus lotus
+- Pumpkin
+- Radioactive barrel
+- Radioactive rod
+- Raw gold
+- Rose
+- Scalpel
+- Silver key
+- Small pipe
+- Bag of soil
+- Spine coral
+- Spotlight
+- Stick
+- Syringe
+- Syringe gun
+- Tall candlestick
+- Thermometer
+- The seed of assimilation
+- Tobacco pipe
+- Torch
+- Toy piano
+- Toy police car
+- Trowel
+- Watch
+- Spinning top
+- Large plant
+
+</details>
+
+</details>
+
+# 1.2.18 (WESLEY OBSCURITY Part 1) - 2026-09-12
+
+<details>
+<summary>Click to expand</summary>
+
+### Vanilla
+Adjusted tea kettle
+
+### WESLEY MOONS!!!!!
+> This version I'm focusing on just adding all the new items and adjusting the most important lore images and stuff as soon as possible. Things may not look right yet if playing the individual moon releases. A lot of previously existing items had their models changed, so in the next version I will be going through all of those and making changes as needed.
+
+Adjusted rotations of all existing floppy disks, videotapes, and lore tapes.
+
+Added:
+
+<details>
+<summary>Click to expand</summary>
+
+- BIO-JHCF3
+- BIO-HNEX5
+- BIO-GZHX4
+- Standing hive
+- Hivecicle
+- Hive rock
+- Jar of honey
+- Bucket of coal
+- Bucket of iron
+- Bucket of gold
+- Glass maze trophy
+- Big nail
+- Big steel nail
+- Big golden nail
+- Cursed bronze medallion
+- Cursed silver medallion
+- Cursed golden medallion
+- Ice chunk
+- Sulfur bottle
+- Sulfuric Acid
+- Atlantean crown
+- Ancient atlantean crown
+- Golden atlantean crown
+- Golden bone
+- Hydrogen peroxide
+- Used first aid kit
+- Crystal of wicked soul
+- Fuse
+- Match
+- Cadaver heart
+- Snatcher egg
+- Fertile snatcher egg
+- Rotten snatcher egg
+- [img] Iron crucible
+- [img] Silver crucible
+- [img] Gold crucible
+- Legally distinct batley
+- Cavil's keycard
+- Finger
+- Bloody Ammo
+- Haunted relic
+- Possessed haunted relic
+- Empty haunted relic
+- Idolised cube
+- Old idolised cube
+- Manor safe key
+- [img] Fabricated key
+- Coffin key
+- Toy vault key
+- Silver sheet
+- Void toy cube
+- Void Zed Dog
+- Void big bolt
+- Void fancy lamp
+- Void ring
+- Void metal sheet
+- Void golden cup
+- Void tongue
+- Disturbed
+- Dirty disturbed
+- Gold disturbed
+- [img] Advanced-flashlight
+- [img] Advanced nightstick
+- [img] Orca plushie
+- [img] Mango fries
+- [img] Gunkfish plushie
+- [img] Iron crucible
+- [img] Silver crucible
+- [img] Gold crucible
+- [img] Glass of water
+- [img] Pulatrum spore-emitter
+- [img] De-weed bottle
+- [img] Fog-reducer
+- [img] Pesticide-sprinkler
+- [img] Triangulation device
+- [img] Adrenaline-stim
+- [img] Health-stim
+- [img] Single-barrel shotgun
+- [img] Missile
+- [img] Black missile
+- [img] Rusty missile
+- [img] Large wire roll
+- [img] Large chemical container
+- [img] Large cable rolls
+- [img] Large lithium container
+- [img] Large plastic stock
+- [img] Circuit board container
+- [img] Large steel bars
+- [img] Rubber chunk
+- [img] Cables
+- [img] Chemical container
+- [img] Vindict videotape
+- [img] Mycete case
+- [img] Solover's recording
+- [img] The entity
+- [img] Blank floppy disc <mark>as well as the other white floppy disks that use the same model</mark>
+- [img] The great mystery <mark>as well as the other purple floppy disks that use the same model</mark>
+- [img] Failsafe floppy disk
+- [img] Amber's diary
+- [img] The apartment
+- [img] Recovery order
+- [img] The city
+- [img] Donnahue's note
+- [img] The metro
+- [img] Haltronium flower
+- [img] Gantronium flower
+- [img] Rotten gantronium flower
+- [img] Blatodara commander
+- [img] Battle guide
+- [img] Homemade spore-emitter
+- [img] Mrov action figure
+- [img] Batley action figure
+- [img] Mary action figure
+
+</details>
+
+Adjusted:
+- Business card
+
+### Thistle_Nebula_Archive_Scrap
++9:
+- Big bulb
+- Crane hook
+- Documents
+- [img] Hydraulic cylinder
+- Inductor
+- Pipe segment
+- Sardines
+- Suspension coil
+- Toaster
+
+### Boom_Scraps
+fixed the PPaint which got randomly renamed for god-knows-why
+
++3:
+- Gasoline Tank
+- Copper Sheet
+- Gold Sheet
+
+### TomatoScrap
++4:
+- Lobby Mug
+- Magic 67 ball
+- Burger
+- WRBurger
+
+### Glitchy_Scrap
++1 for Vinyl Sleeve
+
+</details>
+
+# 1.2.17 - 2026-09-01
+
+<details>
+<summary>Click to expand</summary>
+
 Adjusted rotation of all modded variants of shotgun Ammo (from Wesleys_Ememy_Variants, Vehicle_Hangar, BuyableShotgunPlus, altMoons)
 
 ### Vanilla
@@ -156,6 +724,7 @@ Adjusted rotations of the cartridges and strange device
 - Shay Quack
 - Huge Tire
 
+</details>
 
 # 1.2.16 - 2026-08-02
 
@@ -4836,3 +5405,7 @@ Added 140 configs for Wesley items:
 - Pink Apparatus
 
 </details>
+
+</details>
+
+***

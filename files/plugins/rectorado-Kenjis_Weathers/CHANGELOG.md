@@ -1,3 +1,19 @@
+## 1.1.2
+
+##### Infested
+
+* Fixed outside objects spawning too close to the ship and entrances.
+
+## 1.1.1
+
+##### Acid Rain
+
+* Now properly deactivates the light rain particle system while not active in the animation.
+
+##### Infested
+
+* "The Swarm" now has new vfx. (Thanks TKronix)
+
 ## 1.1.0
 
 ##### General

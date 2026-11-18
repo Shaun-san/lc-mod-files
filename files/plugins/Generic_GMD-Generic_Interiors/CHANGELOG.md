@@ -1,3 +1,29 @@
+5.2.1
+
+
+
+Overall
+
+* Reduced weights for Wesley's moons to 0
+* ???
+* I genuinely don't remember what else I might have done
+
+
+
+Bunker
+
+* Ever so slightly lowered the size from 16 to 14
+* Removed tooltip referencing the scrapped lighter mechanic
+* Renamed Fuse to Big fuse to resolve an issue with Expanded facility
+
+
+
+Library
+
+* Removed
+
+
+
 5.2.0
 
 

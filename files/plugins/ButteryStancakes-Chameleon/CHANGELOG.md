@@ -1,3 +1,11 @@
+# v2.4.6
+- Hotfix to make cavern variants apply to the latest version of expanded mineshaft from [Wesley's Interiors](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/WesleysInteriors/)
+# v2.4.5
+- Added some bonus settings for fog palettes on particular moons
+# v2.4.4
+- Adjusted color of Embrion's `PlanetPreview`
+- `FancyEntrances` now supports [Liminal House](https://thunderstore.io/c/lethal-company/p/Beaniebe/Liminal_House/) from [Beanie's Interiors](https://thunderstore.io/c/lethal-company/p/Beaniebe/Beanies_Interiors/) by default
+- `FixArtificeVolume` now fixes Artifice's sun inexplicably becoming a dwarf star during Stormy, Flooded, and Foggy weathers
 # v2.4.3
 - Updated how the double-sided material cache is emptied (so now you shouldn't see objects turn pink when disconnecting anymore)
 - Updated [WaterAssetRestorer](https://thunderstore.io/c/lethal-company/p/Sniper1_1/WaterAssetRestorer/) compatibility to properly point to [MaterialAssetRestorerCore](https://thunderstore.io/c/lethal-company/p/Sniper1_1/MaterialAssetRestorerCore/) (this might have been causing a resurgence of the pink water bug)
@@ -7,7 +15,7 @@
 - `FixShipMeshes`
 - Fixed `FancyEntrances` not correcting visuals for factory/mineshaft doors on vanilla moons since v2.3.5
 # v2.4.0
-- `ArcticFox`
+- `ArcticFox` (thanks [cookiecaker](https://thunderstore.io/c/lethal-company/p/cookiecaker/))
 # v2.3.5
 - `FancyEntrances`
   - Now supports [Boom's Interiors](https://thunderstore.io/c/lethal-company/p/BLB_Thunderstore_Mods_LOL/Lead_Interiors/) by default
@@ -35,7 +43,7 @@
   - Removed `ReworkFoggyWeather`
   - Removed `FancyShrouds`
   - Removed `RecolorRandomRocks`
-  - Added `SnowyCadavers`
+  - Added `SnowyCadavers` (thanks [cookiecaker](https://thunderstore.io/c/lethal-company/p/cookiecaker/))
 - Moved `EclipsesBlockMusic` to [Enemy Sound Fixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/EnemySoundFixes/)
 # v2.2.4
 - Fixed manor window settings not working with [Old Mansion](https://thunderstore.io/c/lethal-company/p/MBCollector672/OldMansion/)

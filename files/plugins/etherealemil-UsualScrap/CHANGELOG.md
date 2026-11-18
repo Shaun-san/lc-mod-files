@@ -8,6 +8,79 @@
 
 <details>
 
+<summary>Version 2.1.0, Patch 2.1.1</summary>
+
+This update has quite a lot of changes, fair warning if you plan to continue a game save that existed prior.
+
+- Remodeled the scepter and sword.
+- Radioactive cell has a second model variation and a few new color variations.
+- Candy dispenser -> Gumball Machine, Vintage Candy -> Gumball
+- Gumball Machine majorly change - Now holds gained candy inside itself until dropped which will then cause all stored/gained candies to spill out (max 5)
+- Gumball majorly changed - Now provide stacking semi permanent buffs, debuffs, and other effects (min: 50% of base stats, max 300% of base stats). Has an optional basic effects config disabling the semi permanent effects for balancing modpacks mostly.
+- Regal scepter Buffed - Passive gains are now capped but gains from monsters remain uncapped and are buffed from 5$ to 30$ per new monster.
+- Fireaxe and sledgehammer shake when double damage hit is ready.
+- Undid some networking changes from last update for the medical items and redid detection.
+- Tons of polish across the roster of items and changes I've forgotten.
+
+- Fixed Gumball weight.
+- Added Gumball eat sound.
+
+Again if you know a mod you want blowtorch trap compatibility with, let me know. Balancing info would also be great as I don't play much myself.
+
+Interior specific spawning next update. Eventually.
+
+</details>
+
+
+---
+
+<details>
+
+<summary>Version 2.0.9</summary>
+
+- Fixed a critical bug causing crashing, sorry about that.
+- Added Devious Traps compatibility, config toggle to destroy the LRAD, flame, saw, and plasma trap, the others didn't fit to me.
+- Redid the networking for the bandages and medical kit to squash some desyncs.
+- Added a check to the medical kit detecting yourself when trying to heal others.
+- Tickets tweaked, golden ticket now produces a minimum of 3 presents but up to 5, networking smoothed out.
+- Uv editing blah blah, material edits.
+
+Again if you know a mod you want blowtorch trap compatibility with, let me know. Balancing info would also be great as I don't play much myself.
+
+Looking into interior specific spawning as an alternative to moon specific spawning.
+
+</details>
+
+
+---
+
+<details>
+
+<summary>Version 2.0.8</summary>
+
+- Shock baton cut, I couldn't get it feeling how I envisioned and the blowtorch was the obvious winner of the two for store weapons.
+- Sledgehammer changed to be an alternative to fire Axe, it now deals normal damage unless held and readied for a couple seconds where it will then do double damage. Weight reduced slightly.
+- Fire Axe implemented - deals double damage on the first hit done every few seconds, the cooldown to regain double damage is reset everytime it is swung.
+- Antique Sword implemented - longer range, faster swing speed, and gives you a passive held speed bonus like the walking cane.
+- Regal Scepter implemented - Normal shovel-like melee weapon. Gains values passively while in your inventory, gains bonus value for each unique enemy hit using it.
+- Crowbar and Padlock had their store item configs restored and remade.
+- Added modded trap compatibility with the missile turrets mod, if you know a mod with traps you'd like compatibility with let me know!
+- Fixed a bunch of bugs with registration and hud elements.
+
+Working on other mods and stuff for other games so no new content is planned for this mod in the near future, just bug fixes and little polish things periodically. 
+
+Known issues and stuff -
+1. This doesn't work with the experimental version of dawnlib, I could make it compatible but that'd require a bit of a rewrite and it'd most likely break compatibility with normal dawnlib without some wizardry. 
+2. Any of the container mods like smart cupboard or ship storage are kinda back and forth whether they'll work with some of these items, I have noticed and will try to make it work.
+3. Some items don't have hud elements for their effects yet, this will come.
+
+</details>
+
+
+---
+
+<details>
+
 <summary>Version 2.0.6 & 2.0.7</summary>
 
 2.0.7
@@ -42,7 +115,7 @@ Big bug fixes, some item additions, more on the way.
 - Added the Shock Baton - incomplete, disabled by default
 - Added the Regal Scepter - incomplete, disabled by default
 - Added the Antique Sword - incomplete, disabled by default
-- Toolkit redesigned once again, it is now a Blowtorch. It still destroys traps the same way as before but also now function as a low damage ranged weapon.
+- Toolkit redesigned once again, it is now a Blowtorch. It still destroys traps the same way as before but also now functions as a low dps but consistent ranged weapon.
 - Revised the code, if you still have issues with them all of them not spawning, sorry. Been trying to reproduce and fix this but to no avail.
 
 Didn't wanna keep delaying the update since between school and making the new items, its been taking a while. The items will be complete soon, you can enable them and they may or may not have their function or any refinement yet.
