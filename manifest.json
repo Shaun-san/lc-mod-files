@@ -6086,11 +6086,6 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FreeBoomBox/FreeBoomboxV81.dll"
         },
         {
-            "path": "plugins/FreeBoomboxV81.dll",
-            "sha256": "5e4a54bc7a76328d48ee22788100b269997e939c9f47de2af5e80c92b8281262",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FreeBoomboxV81.dll"
-        },
-        {
             "path": "plugins/fumiko-CullFactory/CullFactory.dll",
             "sha256": "6e37dae08910babcedfdd6adda10f9a9535f62e3d057822d3acac8a5bf70d348",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/fumiko-CullFactory/CullFactory.dll"
