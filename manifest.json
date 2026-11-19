@@ -451,6 +451,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BoomBoxBattery/BoomboxBattery.dll"
         },
         {
+            "path": "plugins/BoomboxUI/BoomboxQueueUI.dll",
+            "sha256": "f7eabec389648645fdbe2f2620971a5bf9a38ab2af8f1d4bbaafdcda37c22bb8",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BoomboxUI/BoomboxQueueUI.dll"
+        },
+        {
             "path": "plugins/ButteryStancakes-AccurateStaminaDisplay/accuratestaminadisplay",
             "sha256": "5f427dd0f761b14a3dff660a1ee1a0ad66fe8bd4102e604c41cfc5f664e4cecc",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ButteryStancakes-AccurateStaminaDisplay/accuratestaminadisplay"
@@ -6361,6 +6366,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/LightFixer/HajoFenyJavito.dll"
         },
         {
+            "path": "plugins/LoadOptimilization/HddLoadOptimizations.dll",
+            "sha256": "d858c81abfb0cbe319c6d2dfc96e1cf570bdb1fce8bf643cf1e61bf39bdf30bd",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/LoadOptimilization/HddLoadOptimizations.dll"
+        },
+        {
             "path": "plugins/loaforc-FacilityMeltdown/FacilityMeltdown/facilitymeltdown",
             "sha256": "9540af71850a014e8556df1c6d7377473ed6408ae18971d3f104314a8ec7ef70",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/loaforc-FacilityMeltdown/FacilityMeltdown/facilitymeltdown"
@@ -6419,6 +6429,11 @@
             "path": "plugins/loaforc-loaforcsSoundAPI_LethalCompany/loaforcsSoundAPI_LethalCompany/me.loaforc.soundapi.lethalcompany.dll",
             "sha256": "52b2167a9baaeee8d0cda05dc8eaf991cd266639c9a02035216c355dcbcebcd1",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/loaforc-loaforcsSoundAPI_LethalCompany/loaforcsSoundAPI_LethalCompany/me.loaforc.soundapi.lethalcompany.dll"
+        },
+        {
+            "path": "plugins/LobbyProfileLoader/LobbyLoadProfiler.dll",
+            "sha256": "a4de45e941fc1a69223b2dab31b2fc83295d968985b143ecc4b116b4aea78112",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/LobbyProfileLoader/LobbyLoadProfiler.dll"
         },
         {
             "path": "plugins/Magic_Wesley-Wesleys_Ememy_Variants/enemyvariants.lethalbundle",
@@ -8509,11 +8524,6 @@
             "path": "plugins/YTBoomBox/BoomboxYT.dll",
             "sha256": "1d907186f9dd8b1edc0b07b6552b361c0cfb9d5beb0ddc6bb002ddbdd929f58e",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/YTBoomBox/BoomboxYT.dll"
-        },
-        {
-            "path": "plugins/YTBoomBox/ffmpeg.exe",
-            "sha256": "68e7aba2e1fe9940c023c882ee13fe8d4879ac61cfbe9f1fcbfc975303084a69",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/YTBoomBox/ffmpeg.exe"
         },
         {
             "path": "plugins/YTBoomBox/yt-dlp.exe",
