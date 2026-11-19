@@ -771,6 +771,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/cookiecaker-SigurdsScrap/SigurdsScrap.dll"
         },
         {
+            "path": "plugins/CruiserHandling/CruiserHandling.dll",
+            "sha256": "45a2bfea33733c86df8f37b2aa89f05f7390a9ccc7fe791313b967b666ca50f5",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/CruiserHandling/CruiserHandling.dll"
+        },
+        {
             "path": "plugins/DaanSmoki-ReviveDesyncPatch/ReviveDesyncPatch.dll",
             "sha256": "a9924440458068cb9d859b5e48faef1ef46a765af286dd1bfba02d3ef65385bf",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/DaanSmoki-ReviveDesyncPatch/ReviveDesyncPatch.dll"
@@ -5931,6 +5936,16 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FlipMods-TooManyEmotes/TooManyEmotes.dll"
         },
         {
+            "path": "plugins/FnafPowerOutage/FnafPowerOutage.dll",
+            "sha256": "d3a74e4f72786b2f5742e90e8863cbe769264b507d1a9d15838f92c463c08b15",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FnafPowerOutage/FnafPowerOutage.dll"
+        },
+        {
+            "path": "plugins/FnafPowerOutage/toreadormarch",
+            "sha256": "a0fa5b60900d75e4c3c94fc17fecb18aa55aa531d91145df74a0f205281ce23a",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FnafPowerOutage/toreadormarch"
+        },
+        {
             "path": "plugins/FREAKS-SuitsPlus/moresuits/(Color) Black.png",
             "sha256": "16a8b9bf7bd3d9db611101ad7ca780dacf1cb1ab46bae2fa398a7e762758d79d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FREAKS-SuitsPlus/moresuits/%28Color%29%20Black.png"
@@ -6211,6 +6226,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Hardy-LCMaxSoundsFix/LCMaxSoundsFix.dll"
         },
         {
+            "path": "plugins/Hotkeys/NumberSlotHotkeys.dll",
+            "sha256": "d0966da57644556c98ed6f63af039ea1206080b60fdd9fb38b49f222fb485695",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Hotkeys/NumberSlotHotkeys.dll"
+        },
+        {
             "path": "plugins/IAmBatby-LethalLevelLoader/LethalLevelLoader.dll",
             "sha256": "e9e44020713102ca89aa4a74176a0645eff41d859dd2767903f5f80b93264e75",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/IAmBatby-LethalLevelLoader/LethalLevelLoader.dll"
@@ -6429,6 +6449,11 @@
             "path": "plugins/loaforc-loaforcsSoundAPI_LethalCompany/loaforcsSoundAPI_LethalCompany/me.loaforc.soundapi.lethalcompany.dll",
             "sha256": "52b2167a9baaeee8d0cda05dc8eaf991cd266639c9a02035216c355dcbcebcd1",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/loaforc-loaforcsSoundAPI_LethalCompany/loaforcsSoundAPI_LethalCompany/me.loaforc.soundapi.lethalcompany.dll"
+        },
+        {
+            "path": "plugins/LobbyOpen/OrbitLobbyAutoOpen.dll",
+            "sha256": "14341d050aa77192f59e198922b65f1e5c61ac74cf8d12fbe497d534fb362f09",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/LobbyOpen/OrbitLobbyAutoOpen.dll"
         },
         {
             "path": "plugins/LobbyProfileLoader/LobbyLoadProfiler.dll",
@@ -6734,6 +6759,11 @@
             "path": "plugins/MrSaltedBeef-33Granductor/granductorscene.lethalbundle",
             "sha256": "c7d17d7f7add2c436cf6257c2d7e173b78fa995a2d48e88f6f883605c958f84e",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/MrSaltedBeef-33Granductor/granductorscene.lethalbundle"
+        },
+        {
+            "path": "plugins/NearbyWalkieAudio/NearbyWalkieAudio.dll",
+            "sha256": "41ffa55dcafe1db8a897653b69acd68083746bd31f60d2d4cbbb1ce9df98cdbc",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/NearbyWalkieAudio/NearbyWalkieAudio.dll"
         },
         {
             "path": "plugins/Necessitas-LightBat/LightBat.dll",
