@@ -1,0 +1,9 @@
+{
+    "name": "ImmersiveVisorFork",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/SleepyMiles/ImmersiveVisorFork",
+    "description": "Continuation of Immersive Visor by Woecust. Reactive visor: cracks, raindrops, blood, snow and visor fog.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305"
+    ]
+}

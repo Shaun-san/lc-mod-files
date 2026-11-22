@@ -6216,6 +6216,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Generic_GMD-ManuLib/manulib_red.png"
         },
         {
+            "path": "plugins/GordionChess/ChessMod.dll",
+            "sha256": "7763d7fa2cccbbd03a45798cb4b11587407b27426a3802fcba28f8e37a791068",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/GordionChess/ChessMod.dll"
+        },
+        {
             "path": "plugins/Hardy-LCMaxSoundsFix/LCMaxSoundsFix.dll",
             "sha256": "92416046aa0be0a6226aa644772c7e1f0174accce42a29968619523a13afcfbd",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Hardy-LCMaxSoundsFix/LCMaxSoundsFix.dll"
@@ -6304,6 +6309,11 @@
             "path": "plugins/kidcudilovers-CudisRealisticSuits/moresuits/Squad II.png",
             "sha256": "c97413d6a7bb5ee4a6c9741880a1db84561dd131205eb83be7ec12f6c0b46993",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/kidcudilovers-CudisRealisticSuits/moresuits/Squad%20II.png"
+        },
+        {
+            "path": "plugins/LandingLag/LandingLag.dll",
+            "sha256": "eaaa08e7d82ad3063c8eeba6bee0a9fec1fa60d094cd251af0088dbe01fdf15b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/LandingLag/LandingLag.dll"
         },
         {
             "path": "plugins/LethalCompanyModding-RuntimeIcons/RuntimeIcons/overrides.json",
@@ -7299,6 +7309,21 @@
             "path": "plugins/Sigurd-CSync/CSync/com.sigurd.csync.dll",
             "sha256": "f8719ae74743da178b7e95693fb5235411b7788889a3c68269b118f50c5c7da6",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Sigurd-CSync/CSync/com.sigurd.csync.dll"
+        },
+        {
+            "path": "plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/immersivevisor",
+            "sha256": "259d6cfab17b2b8c69322c7819e9072d2192fcbfc0109f8f131f0e28b4d50868",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/immersivevisor"
+        },
+        {
+            "path": "plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/immersivevisorfork",
+            "sha256": "60e9e3528bceee9ce52e2d879ec6e273f829f1c6965b4dbc7f32443d0a46ca33",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/immersivevisorfork"
+        },
+        {
+            "path": "plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/ImmersiveVisorFork.dll",
+            "sha256": "de88505dab538bb333c3d096254a33c2d7ae894e45746ffe55f0a746b0c478d4",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/SleepyMiles-ImmersiveVisorFork-1.0.1/ImmersiveVisorFork.dll"
         },
         {
             "path": "plugins/Smxrez-FashionableCompany/MoreCompanyCosmetics/FashionableCompany.cosmetics",
