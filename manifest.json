@@ -6966,6 +6966,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/notnotnotswipez-MoreCompany/MoreCompany.dll"
         },
         {
+            "path": "plugins/ObserverScrapThreshold/ObserverScrapThreshold.dll",
+            "sha256": "4f8e38e5f0bdc1205082b0444f52007197a8fe4c21915d175add9278afcb7e26",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ObserverScrapThreshold/ObserverScrapThreshold.dll"
+        },
+        {
             "path": "plugins/OrtonLongGaming-FreddyBracken-1.0.6/freddy.bundle",
             "sha256": "010c691b959098f1b9aa474b027790be71e360bcf99628218ead11052a2e7d1d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/OrtonLongGaming-FreddyBracken-1.0.6/freddy.bundle"
