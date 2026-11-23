@@ -452,7 +452,7 @@
         },
         {
             "path": "plugins/BoomboxUI/BoomboxQueueUI.dll",
-            "sha256": "57c433e246c176e0ba77f214311cc4eb063bf63a252795c92c1136a83f925ed5",
+            "sha256": "8f7e8863498506407bc247319fc1692a861c097bda8843b8ba06675aa11470a8",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BoomboxUI/BoomboxQueueUI.dll"
         },
         {
@@ -664,6 +664,11 @@
             "path": "plugins/chuxiaaaa-LoadingInfo/LoadingInfo.dll",
             "sha256": "94c40f12699eead27701035a0741812e323c7ee9adf80e7de783b2b84f8b965d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/chuxiaaaa-LoadingInfo/LoadingInfo.dll"
+        },
+        {
+            "path": "plugins/CompanyCompatibility/CompanyCompatibility.dll",
+            "sha256": "3f6180ad421ef932f24212b0c9e47c2a6e2aaa1ea09276174c38b6da764d73d4",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/CompanyCompatibility/CompanyCompatibility.dll"
         },
         {
             "path": "plugins/CoNcept_Temple_Modding-Scooby_Doo_Crew_Suits/moresuits/advanced/Daphane.json",
