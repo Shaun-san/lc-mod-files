@@ -631,6 +631,16 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ButteryStancakes-WeedKillerFixes/WeedKillerFixes.dll"
         },
         {
+            "path": "plugins/BuyableShotgunPlus/BuyableShotgunPlus.dll",
+            "sha256": "5ecb445eeeeaa864c5a4c923cbedb527c25683d9b9673be3bc9732f7d61105b5",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BuyableShotgunPlus/BuyableShotgunPlus.dll"
+        },
+        {
+            "path": "plugins/BuyableShotgunPlus/shotgun",
+            "sha256": "3964a0940329cb3a213483885825157ee303469cc2764538eb5bd4246198203e",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BuyableShotgunPlus/shotgun"
+        },
+        {
             "path": "plugins/chuxiaaaa-ChuxiaFixes/ChuxiaFixes.deps.json",
             "sha256": "5a7c43ee2d8c08cd6b96d4704c93b6592411efc56ca3004b23d24de7727b7844",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/chuxiaaaa-ChuxiaFixes/ChuxiaFixes.deps.json"
@@ -5881,6 +5891,16 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Fandovec03-SpiderPositionFix/spideranimationfixbundle"
         },
         {
+            "path": "plugins/FlipMods-ReservedItemSlotCore/ReservedItemSlotCore.dll",
+            "sha256": "7733cea7b96427bd19cbea2e03c08e9c74ad23dbea3ab28a63f4ae520a62380b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FlipMods-ReservedItemSlotCore/ReservedItemSlotCore.dll"
+        },
+        {
+            "path": "plugins/FlipMods-ReservedWeaponSlot/ReservedWeaponSlot.dll",
+            "sha256": "3511dec5fce9c2343e027e0c9554eafb203fbab8573a271ace27bd4495024503",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FlipMods-ReservedWeaponSlot/ReservedWeaponSlot.dll"
+        },
+        {
             "path": "plugins/FlipMods-TooManyEmotes/Assets/compressed_audio",
             "sha256": "d4981c9e8524bcad1b3b8855d0d4d85fdf0ab00824d902a331a3eefbe418f201",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FlipMods-TooManyEmotes/Assets/compressed_audio"
@@ -6222,7 +6242,7 @@
         },
         {
             "path": "plugins/GordionChess/ChessMod.dll",
-            "sha256": "43e730b95a72f7fe8ce4e41e5fdc1adb2c7edecd4842195cce7d3d727396968d",
+            "sha256": "c01d9fdf246c4903e068899dcb043f8df3de2ca2d13c446be2069813c1012446",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/GordionChess/ChessMod.dll"
         },
         {
