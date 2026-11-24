@@ -1,0 +1,8 @@
+{
+  "namespace": "SagTag",
+  "name": "SwayFlashlight",
+  "version_number": "0.1.1",
+  "description": "Adds sway to the flashlight rotation",
+  "website_url": "",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2305"]
+}

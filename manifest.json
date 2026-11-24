@@ -786,6 +786,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/cookiecaker-SigurdsScrap/SigurdsScrap.dll"
         },
         {
+            "path": "plugins/CrewUpgrades/CrewUpgrades.dll",
+            "sha256": "4be1f61002f462d8e64d445fa50af7b67e7e43261c49527e0015faa718af616b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/CrewUpgrades/CrewUpgrades.dll"
+        },
+        {
             "path": "plugins/CruiserHandling/CruiserHandling.dll",
             "sha256": "45a2bfea33733c86df8f37b2aa89f05f7390a9ccc7fe791313b967b666ca50f5",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/CruiserHandling/CruiserHandling.dll"
@@ -6242,13 +6247,23 @@
         },
         {
             "path": "plugins/GordionChess/ChessMod.dll",
-            "sha256": "c01d9fdf246c4903e068899dcb043f8df3de2ca2d13c446be2069813c1012446",
+            "sha256": "ad056094df0d5888303962e1da76fd372489fe7bb5f0624574e1f015b7b26ea7",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/GordionChess/ChessMod.dll"
         },
         {
             "path": "plugins/Hardy-LCMaxSoundsFix/LCMaxSoundsFix.dll",
             "sha256": "92416046aa0be0a6226aa644772c7e1f0174accce42a29968619523a13afcfbd",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Hardy-LCMaxSoundsFix/LCMaxSoundsFix.dll"
+        },
+        {
+            "path": "plugins/HDLethalCompanyPatch/HDLethalCompanyPatch.dll",
+            "sha256": "4da22401c8fb167f6ee1c4452a8c9d163e936bdc7d0657b9397ce7467bbfc43b",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/HDLethalCompanyPatch/HDLethalCompanyPatch.dll"
+        },
+        {
+            "path": "plugins/HdResolutionCompatibility/HdResolutionCompatibility.dll",
+            "sha256": "ade7d60978991a191237914c82e4042349b1ef5bf1651b81a8b2e69fa8d0865f",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/HdResolutionCompatibility/HdResolutionCompatibility.dll"
         },
         {
             "path": "plugins/Hotkeys/NumberSlotHotkeys.dll",
@@ -7016,6 +7031,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Pooble-LCBetterSaves/LCBetterSaves.dll"
         },
         {
+            "path": "plugins/PopleZoo-BetterItemScan-3.0.2/BetterItemScan.dll",
+            "sha256": "918fb1058fcbcde914e4d745a95ca2a54e1fac91b80d3818909c8d0f56dcf071",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/PopleZoo-BetterItemScan-3.0.2/BetterItemScan.dll"
+        },
+        {
             "path": "plugins/POTATOH-MoreCompanyCosmeticSorter/CosmeticsAutoSort.dll",
             "sha256": "282c4c8d41bb5680bf7283efc17557cfb475e075683966f84105c4c90106ef59",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/POTATOH-MoreCompanyCosmeticSorter/CosmeticsAutoSort.dll"
@@ -7266,6 +7286,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Rune580-LethalCompany_InputUtils/LethalCompanyInputUtils/Locale/zh_CN.json"
         },
         {
+            "path": "plugins/SagTag-SwayFlashlight-0.1.1/com.sagtag.SwayFlashlight.dll",
+            "sha256": "b662d2ad516bf6d8ab31e73b5ae6e605d80e5e61d7736e64dc7d90f46ed37cb7",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/SagTag-SwayFlashlight-0.1.1/com.sagtag.SwayFlashlight.dll"
+        },
+        {
             "path": "plugins/ScienceBird-ScienceBird_Tweaks/ScienceBird.ScienceBirdTweaks.dll",
             "sha256": "ab9d87a037b090b3f80afbbaebd409254a024b81442d0280a9164a7811324059",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ScienceBird-ScienceBird_Tweaks/ScienceBird.ScienceBirdTweaks.dll"
@@ -7334,6 +7359,11 @@
             "path": "plugins/ShaosilGaming-GeneralImprovements/GeneralImprovementsAssets",
             "sha256": "726eb3ecd1b02ec900b4fcf022fbb58f6a29893463c476277a11b898a276f19c",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ShaosilGaming-GeneralImprovements/GeneralImprovementsAssets"
+        },
+        {
+            "path": "plugins/ShotgunAmmoStacks/ShotgunAmmoStacks.dll",
+            "sha256": "97f4d24006c63708952ed66f3b7e4e60c62f13aa3df4cf919d31cdeb1c35c8f9",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ShotgunAmmoStacks/ShotgunAmmoStacks.dll"
         },
         {
             "path": "plugins/Sigurd-CSync/CSync/com.sigurd.csync.dll",
@@ -8649,21 +8679,6 @@
             "path": "plugins/zealsprince-Locker/Locker.dll",
             "sha256": "b8ab49f52e3d3cb9f7d9c7cdbca191559de84bd11df5a458669393a78d1e424d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/zealsprince-Locker/Locker.dll"
-        },
-        {
-            "path": "plugins/Zehs-SellMyScrap/com.github.zehsteam.SellMyScrap.dll",
-            "sha256": "1a27500f4e1c683f569325ceeea7a780506be96a935275407c5a881dfc95800d",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Zehs-SellMyScrap/com.github.zehsteam.SellMyScrap.dll"
-        },
-        {
-            "path": "plugins/Zehs-SellMyScrap/com.github.zehsteam.SellMyScrap.v40-v72.dll",
-            "sha256": "0ab886b906c58768af2d8601745b75591e49aec606bf1b8f528122dcc2de89a8",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Zehs-SellMyScrap/com.github.zehsteam.SellMyScrap.v40-v72.dll"
-        },
-        {
-            "path": "plugins/Zehs-SellMyScrap/sellmyscrap_assets",
-            "sha256": "f5a89a507601cd84ed3ad296bc714d466a398527ed28efec17073403a408894a",
-            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Zehs-SellMyScrap/sellmyscrap_assets"
         },
         {
             "path": "plugins/Zigzag-LegendWeathers/legendweathers",
