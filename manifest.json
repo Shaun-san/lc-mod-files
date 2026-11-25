@@ -632,7 +632,7 @@
         },
         {
             "path": "plugins/BuyableShotgunPlus/BuyableShotgunPlus.dll",
-            "sha256": "5ecb445eeeeaa864c5a4c923cbedb527c25683d9b9673be3bc9732f7d61105b5",
+            "sha256": "1da6fa953d7706dd88604c1f3dd70b45e6b9543d6ee59224f54f582445e9e407",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BuyableShotgunPlus/BuyableShotgunPlus.dll"
         },
         {
@@ -5902,7 +5902,7 @@
         },
         {
             "path": "plugins/FlipMods-ReservedWeaponSlot/ReservedWeaponSlot.dll",
-            "sha256": "3511dec5fce9c2343e027e0c9554eafb203fbab8573a271ace27bd4495024503",
+            "sha256": "424eedee84e6676352b5aaa6a9473858f55a5cff9a2817829fbd41129bb3010e",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/FlipMods-ReservedWeaponSlot/ReservedWeaponSlot.dll"
         },
         {
@@ -6247,7 +6247,7 @@
         },
         {
             "path": "plugins/GordionChess/ChessMod.dll",
-            "sha256": "ad056094df0d5888303962e1da76fd372489fe7bb5f0624574e1f015b7b26ea7",
+            "sha256": "bc6caa623c3a2245de5deb109bbe80fdc16e9152dca3431dd9df395649e06505",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/GordionChess/ChessMod.dll"
         },
         {
@@ -6267,7 +6267,7 @@
         },
         {
             "path": "plugins/Hotkeys/NumberSlotHotkeys.dll",
-            "sha256": "d0966da57644556c98ed6f63af039ea1206080b60fdd9fb38b49f222fb485695",
+            "sha256": "a5f95123d9a8762ff8e79959524176759744fa557cd5bc9860256ac81f8b07d8",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Hotkeys/NumberSlotHotkeys.dll"
         },
         {
@@ -7026,6 +7026,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/pacoito-itolib/itolib.dll"
         },
         {
+            "path": "plugins/PocketBoombox/PocketBoombox.dll",
+            "sha256": "f9492f1fa1229483e611cf3f6d921580c3db77cfb4080622905574777cef50b3",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/PocketBoombox/PocketBoombox.dll"
+        },
+        {
             "path": "plugins/Pooble-LCBetterSaves/LCBetterSaves.dll",
             "sha256": "659694a858a91c96bf007224a4812a6cc8efa299a44ab23d607037963343d911",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Pooble-LCBetterSaves/LCBetterSaves.dll"
@@ -7362,7 +7367,7 @@
         },
         {
             "path": "plugins/ShotgunAmmoStacks/ShotgunAmmoStacks.dll",
-            "sha256": "97f4d24006c63708952ed66f3b7e4e60c62f13aa3df4cf919d31cdeb1c35c8f9",
+            "sha256": "9294c699ecbb76b98e43b005281ec9494c537219e6d03feedb697dd5ff9ad6ae",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/ShotgunAmmoStacks/ShotgunAmmoStacks.dll"
         },
         {
