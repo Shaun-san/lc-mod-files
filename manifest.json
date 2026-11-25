@@ -446,6 +446,11 @@
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/Biodiversity/lang/ru.json"
         },
         {
+            "path": "plugins/BodyCamResolution/BodyCamResolution.dll",
+            "sha256": "023e7ae4045a066e0269ef69c518ef1342fe5ad6b1bfcddb50983dc190cbcaea",
+            "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BodyCamResolution/BodyCamResolution.dll"
+        },
+        {
             "path": "plugins/BoomBoxBattery/BoomboxBattery.dll",
             "sha256": "8484d0153592656e994c0127190534211d6f7a7b33e3398c248d44edee1d507d",
             "url": "https://raw.githubusercontent.com/Shaun-san/lc-mod-files/main/files/plugins/BoomBoxBattery/BoomboxBattery.dll"
